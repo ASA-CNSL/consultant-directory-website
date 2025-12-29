@@ -8,6 +8,8 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
+      - href: directory.qmd
+        text: Directory
   page-footer: 
     left: |
       © 2025 ASA Consulting Section  

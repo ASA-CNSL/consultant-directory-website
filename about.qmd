@@ -2,8 +2,10 @@
 title: "About"
 ---
 
-::: callout-caution
-This repository has begun the process of being migrated over to the American Statistical Association's Statistical Consulting Section for upkeep and maintenance.
+::: callout-warning
+# Under construction
+
+This webpage is currently under review. 
 :::
 
 This resource is maintained by the [ASA Section on Statistical Consulting](https://community.amstat.org/cnsl/home). If you are a statistical practitioner, please consider join our Section of the ASA for access to webinars, networking, educational resources, and more. 

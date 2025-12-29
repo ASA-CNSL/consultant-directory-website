@@ -3,6 +3,11 @@ title: "ASA Directory of Statistical Consultants"
 ---
 
 
+::: callout-warning
+# Under construction
+
+This webpage is currently under review. 
+:::
 
 ::: callout-note
 This list was last updated on `r Sys.Date()`. Please [report an issue](https://github.com/ASA-CNSL/consultant-directory-website/issues/new) if you experience unexpected or broken links.
@@ -51,7 +56,7 @@ directory_members %>%
          Languages = Languages,
          Contact = `Email address (as you'd like it to appear)`,
          Website = `Website URL (optional)`) %>% 
-  mutate(Links = paste0('<a href=mailto:"', Contact, '">email</a>; <a href="', Website, '">website</a>')) %>% 
+  mutate(Links = paste0('<a href="mailto:', Contact, '">email</a>; <a href="', Website, '">website</a>')) %>% 
   select(-Contact, -Website) %>% 
   datatable(options=list(pageLength=25, autoWidth=TRUE), rownames=FALSE, 
             escape = FALSE, filter = "top")
