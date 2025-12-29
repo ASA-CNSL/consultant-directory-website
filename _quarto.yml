@@ -1,0 +1,32 @@
+project:
+  type: website
+
+website:
+  title: "ASA Directory of Statistical Consultants"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+  page-footer: 
+    left: |
+      © 2025 ASA Consulting Section  
+      A community of the American Statistical Association  
+    right: |
+      <small>
+      The content on this site reflects the views of individual contributors and does not represent official positions of the ASA.  
+      </small>
+  repo-url: https://github.com/ASA-CNSL/consultant-directory-website
+  repo-actions: [issue]
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+
+editor: source
+
+execute: 
+  freeze: auto

@@ -1,0 +1,58 @@
+---
+title: "ASA Directory of Statistical Consultants"
+---
+
+
+
+::: callout-note
+This list was last updated on `r Sys.Date()`. Please [report an issue](https://github.com/ASA-CNSL/consultant-directory-website/issues/new) if you experience unexpected or broken links.
+:::
+
+```{r, echo = FALSE, message = FALSE}
+library(dplyr)
+library(knitr)
+library(DT)
+library(googlesheets4)
+
+
+# Download to local from https://ww2.amstat.org/OfficerReports/index.cfm, available on leadership hub
+current_members <- readxl::read_excel("~/Downloads/CNSL_ Section on Statistical Consulting_Current (1).xls") %>% 
+  select(`ASA Member Number` = membership_Individual_LocalID, expiration_date = membership_ExpirationDate)
+
+
+form_responses <- read_sheet('https://docs.google.com/spreadsheets/d/1CKpngSWGC54YHUHwbOCyraWKOSkCoc4rzbvJWg3ZlqM/edit?usp=sharing')
+
+# Add filter for timestamp within 365 days 
+form_responses <- form_responses %>% 
+  mutate(listing_age = difftime(Sys.time(), Timestamp, units = "days")) %>% 
+  filter(listing_age <= 365)
+
+# merge with existing members 
+directory_members <- left_join(form_responses, current_members) %>% 
+  mutate(active = expiration_date <= Sys.Date())
+
+
+
+directory_members <-directory_members %>% 
+  filter(grepl("consent", `Consent & Acknowledgement`)) %>% 
+  filter(grepl("acknowledge", `Consent & Acknowledgement`))
+  
+
+# nrow(directory_members) # Number of forms matching currently-active Section members 
+
+# Add filter for validated
+
+directory_members %>% 
+  select(Name = `Name (as you'd like it to appear)`, 
+         Expertise = `Area(s) of Expertise. Select up to 3.`,
+         Specialty = `Application Specialties (up to 3)`, 
+         Mode = `Consulting Mode`, 
+         Location = `In-person availability (if applicable, list city/state/region)`,
+         Languages = Languages,
+         Contact = `Email address (as you'd like it to appear)`,
+         Website = `Website URL (optional)`) %>% 
+  mutate(Links = paste0('<a href=mailto:"', Contact, '">email</a>; <a href="', Website, '">website</a>')) %>% 
+  select(-Contact, -Website) %>% 
+  datatable(options=list(pageLength=25, autoWidth=TRUE), rownames=FALSE, 
+            escape = FALSE, filter = "top")
+```

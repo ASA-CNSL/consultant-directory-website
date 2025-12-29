@@ -1,0 +1,15 @@
+---
+title: "About"
+---
+
+::: callout-caution
+This repository has begun the process of being migrated over to the American Statistical Association's Statistical Consulting Section for upkeep and maintenance.
+:::
+
+This resource is maintained by the [ASA Section on Statistical Consulting](https://community.amstat.org/cnsl/home). If you are a statistical practitioner, please consider join our Section of the ASA for access to webinars, networking, educational resources, and more. 
+
+**Disclaimer of Endorsement and Responsibility:**
+
+This website is maintained by members of the American Statistical Association’s Section on Statistical Consulting (ASA-CNSL) for informational and community purposes. The appearance of external links, member listings, or other materials on this site does not constitute an endorsement by the ASA of the views, opinions, products, or services referenced therein.
+
+The ASA makes no representations or warranties of any kind, express or implied, regarding the completeness, accuracy, reliability, or suitability of the information contained herein. Users of this site assume full responsibility for how they use this information. Under no circumstances shall the ASA be liable for any loss or damage arising from reliance on content provided through this website.

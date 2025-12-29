@@ -1,0 +1,18 @@
+---
+title: "ASA Directory of Statistical Consultants"
+fig-cap-location: top
+---
+
+::: callout-warning
+# Under construction
+
+This webpage is currently under review. 
+:::
+
+## Welcome to the ASA Directory of Statistical Consultants
+
+Welcome to the American Statistical Association's Statistical Consultant Directory; a resource supported by the ASA's Section on Statistical Consulting. The goal of this website is to connect seekers of statistical consulting and collaboration with highly skilled statistical practitioners. 
+
+This service is provided by the American Statistical Association's Section on Statistical Consulting. While the ASA and the ASA Statistical Consulting Section endeavor to provide quality services, neither the ASA nor the ASA Statistical Consulting Section can guarantee the accuracy or completeness of the information provided by the statistical consultants, and neither guarantees the performance or abilities of the statistical consultants included. The ASA and the ASA Statistical Consulting Section assume no liability or responsibility in connection with the services the consultants provide or any errors or omissions in the services or information provided. Under no circumstances shall either the ASA or the ASA Statistical Consulting Section be liable for any direct, indirect, or consequential damages that may result from the consulting information provided or consulting services rendered.
+
+This website was formerly hosted by the [ASA](https://ww2.amstat.org/consultantdirectory/index.cfm). In 2026 we began transitioning towards a Section-specific website. 
