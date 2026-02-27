@@ -1,0 +1,21 @@
+---
+title: "profile_demo"
+author: "nfultz"
+profile:
+  name: Neal Fultz
+  email: neal@njnm.co
+  location: Los Angeles, CA
+  linkedin: 
+---
+
+
+## `r rmarkdown::metadata$profile$name`
+
+* [email](mailto:`r rmarkdown::metadata$profile$email`)
+
+
+
+```{r}
+  rmarkdown::metadata$profile
+```
+
