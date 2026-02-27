@@ -1,6 +1,7 @@
 require(htmltools, quietly = TRUE)
 profile <- rmarkdown::metadata$profile
 
+optional <- function(nm, tag) if(hasName(profile, as.character(substitute(nm)))) tag
 
 div(
   h1(profile$name),
@@ -11,7 +12,10 @@ div(
     ),
     tags$li(
       profile$location
-    )
+    ),
+    optional(github, tags$li(
+      profile$github
+    ))
     
   )
 ) |> print()
