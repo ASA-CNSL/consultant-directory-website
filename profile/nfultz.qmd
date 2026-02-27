@@ -6,3 +6,6 @@ profile:
   linkedin: https://linkedin.com/in/nfultz
 ---
 
+```{r, echo=FALSE, results='asis'}
+source('profile-body.R')
+```
