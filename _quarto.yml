@@ -1,5 +1,6 @@
 project:
   type: website
+  pre-render: build_profiles.R
 
 website:
   title: "ASA Directory of Statistical Consultants"

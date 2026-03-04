@@ -18,23 +18,40 @@ library(dplyr)
 library(knitr)
 library(DT)
 library(googlesheets4)
+library(htmltools)
+
+# # Get project metadata
+# # Get the build directory (defaults to _site)
+# proj_info <- quarto::quarto_inspect()
+# build_dir <- proj_info$project[["output-dir"]] %||% "_site"
+# 
+# str(proj_info)
+# message("build_dir:\t", build_dir)
+
+profile_target <- function(email, where=\(x) file.path("profile", x)) {
+    sprintf(fmt="%s.html", sub("@", "_at_", email)) |> where()
+  
+}
 
 
 # Download to local from https://ww2.amstat.org/OfficerReports/index.cfm, available on leadership hub
-current_members <- readxl::read_excel("~/Downloads/CNSL_ Section on Statistical Consulting_Current (1).xls") %>% 
-  select(`ASA Member Number` = membership_Individual_LocalID, expiration_date = membership_ExpirationDate)
+#current_members <- readxl::read_excel("~/Downloads/CNSL_ Section on Statistical Consulting_Current (1).xls") %>% 
+#  select(`ASA Member Number` = membership_Individual_LocalID, expiration_date = membership_ExpirationDate)
 
 
 form_responses <- read_sheet('https://docs.google.com/spreadsheets/d/1CKpngSWGC54YHUHwbOCyraWKOSkCoc4rzbvJWg3ZlqM/edit?usp=sharing')
 
 # Add filter for timestamp within 365 days 
 form_responses <- form_responses %>% 
-  mutate(listing_age = difftime(Sys.time(), Timestamp, units = "days")) %>% 
+  mutate(listing_age = difftime(Sys.time(), Timestamp, units = "days"),
+         expiration_date = as.Date('2026-12-31') #TODO
+         ) %>% 
   filter(listing_age <= 365)
 
 # merge with existing members 
-directory_members <- left_join(form_responses, current_members) %>% 
-  mutate(active = expiration_date <= Sys.Date())
+directory_members <- #left_join(form_responses, current_members) %>% 
+  form_responses %>% 
+  mutate(active = expiration_date >= Sys.Date())
 
 
 
@@ -47,7 +64,7 @@ directory_members <-directory_members %>%
 
 # Add filter for validated
 
-directory_members %>% 
+directory_members  %>% 
   select(Name = `Name (as you'd like it to appear)`, 
          Expertise = `Area(s) of Expertise. Select up to 3.`,
          Specialty = `Application Specialties (up to 3)`, 
@@ -57,6 +74,7 @@ directory_members %>%
          Contact = `Email address (as you'd like it to appear)`,
          Website = `Website URL (optional)`) %>% 
   mutate(Links = paste0('<a href="mailto:', Contact, '">email</a>; <a href="', Website, '">website</a>')) %>% 
+  mutate(Name = mapply(\(x,y){as.character(a(href=profile_target(x), y))}, Contact, Name)) %>% 
   select(-Contact, -Website) %>% 
   datatable(options=list(pageLength=25, autoWidth=TRUE), rownames=FALSE, 
             escape = FALSE, filter = "top")
