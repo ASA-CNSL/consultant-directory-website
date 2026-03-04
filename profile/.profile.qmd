@@ -1,0 +1,15 @@
+---
+params:
+  profile_name: Neal Fultz
+  profile_email: neal@njnm.co
+  profile_location: Los Angeles, CA
+  profile_linkedin: https://linkedin.com/in/nfultz
+---
+
+```{r, echo=FALSE, results='asis'}
+require(htmltools, quietly = TRUE)
+profile <- setNames(params, sub("profile_", "", names(params)))
+```
+
+  * `{r} profile$location`
+  * [`{r} profile$email`](`{r} profile$email`) 
