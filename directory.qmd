@@ -6,48 +6,79 @@ title: "ASA Directory of Statistical Consultants"
 ::: callout-warning
 # Under construction
 
-This webpage is currently under review. 
+This webpage is currently under review. If you'd like to update your listing, please [fill out this form](https://docs.google.com/forms/d/e/1FAIpQLSdU__AWWWNNXsIw3cOwajCUwcNuPjK3u0vRXM9_tDnbm1nC0A/viewform?usp=dialog). 
 :::
 
 ::: callout-note
 This list was last updated on `r Sys.Date()`. Please [report an issue](https://github.com/ASA-CNSL/consultant-directory-website/issues/new) if you experience unexpected or broken links.
 :::
 
-```{r, echo = FALSE, message = FALSE}
+```{r setup, echo = FALSE, message = FALSE}
 library(dplyr)
 library(knitr)
 library(DT)
 library(googlesheets4)
 
+```
 
-# Download to local from https://ww2.amstat.org/OfficerReports/index.cfm, available on leadership hub
-current_members <- readxl::read_excel("~/Downloads/CNSL_ Section on Statistical Consulting_Current (1).xls") %>% 
-  select(`ASA Member Number` = membership_Individual_LocalID, expiration_date = membership_ExpirationDate)
+```{r read-data, echo = FALSE, message = FALSE, cache = TRUE}
+
+# path to current membership, need to get this hy Download to local from https://ww2.amstat.org/OfficerReports/index.cfm, available on leadership hub
+path_to_current <- "~/OneDrive - University of Iowa/OtherService/ASA-CSNL/consultant_directory/CNSL_ Section on Statistical Consulting_Current (1).xls"
+
+# path to google form (need authentication, contact Ryan Peterson)
+path_to_form_data <- 'https://docs.google.com/spreadsheets/d/1CKpngSWGC54YHUHwbOCyraWKOSkCoc4rzbvJWg3ZlqM/edit?usp=sharing'
+
+# Read Section Membership Directory & form data 
+current_members <- readxl::read_excel(path_to_current) %>% 
+  rename(`ASA Member Number` = membership_Individual_LocalID, 
+         expiration_date = membership_ExpirationDate)
 
 
-form_responses <- read_sheet('https://docs.google.com/spreadsheets/d/1CKpngSWGC54YHUHwbOCyraWKOSkCoc4rzbvJWg3ZlqM/edit?usp=sharing')
+form_responses <- read_sheet(path_to_form_data) 
+
+old_listings <- readxl::read_excel('~/OneDrive - University of Iowa//OtherService/ASA-CSNL/consultant_directory/ASA Consultant Directory.xlsx')
+
+
+```
+
+```{r clean, echo = FALSE, message = FALSE}
+form_responses <- form_responses %>% 
+  rename("ASA Member Number" = "ASA Member Number (6 digit number)")
+
+# clean member number 
+if(!is.numeric(form_responses$`ASA Member Number`))
+  warning("Fix form error in spreadsheet ASA Member Number")
+
+form_responses$`ASA Member Number` <- as.numeric(form_responses$`ASA Member Number`)
+
+form_responses <- form_responses %>% 
+  filter(!grepl("Test", `Name (as you'd like it to appear)`))
 
 # Add filter for timestamp within 365 days 
 form_responses <- form_responses %>% 
   mutate(listing_age = difftime(Sys.time(), Timestamp, units = "days")) %>% 
-  filter(listing_age <= 365)
+  filter(listing_age <= 365) %>% 
+  filter(!is.na(`ASA Member Number`)) %>% 
+  group_by(`ASA Member Number`) %>% 
+  filter(Timestamp == max(Timestamp)) %>% 
+  ungroup()
 
-# merge with existing members 
-directory_members <- left_join(form_responses, current_members) %>% 
-  mutate(active = expiration_date <= Sys.Date())
-
+# merge with existing members as of Jan 1 2026
+directory_members <- current_members %>% 
+  select(`ASA Member Number`, expiration_date) %>% 
+  right_join(form_responses) %>% 
+  mutate(active = expiration_date < "01/01/2026")
 
 
 directory_members <-directory_members %>% 
   filter(grepl("consent", `Consent & Acknowledgement`)) %>% 
   filter(grepl("acknowledge", `Consent & Acknowledgement`))
   
-
 # nrow(directory_members) # Number of forms matching currently-active Section members 
 
 # Add filter for validated
-
-directory_members %>% 
+listings <- directory_members %>% 
   select(Name = `Name (as you'd like it to appear)`, 
          Expertise = `Area(s) of Expertise. Select up to 3.`,
          Specialty = `Application Specialties (up to 3)`, 
@@ -57,7 +88,64 @@ directory_members %>%
          Contact = `Email address (as you'd like it to appear)`,
          Website = `Website URL (optional)`) %>% 
   mutate(Links = paste0('<a href="mailto:', Contact, '">email</a>; <a href="', Website, '">website</a>')) %>% 
-  select(-Contact, -Website) %>% 
+  select(-Contact, -Website, -Mode)
+
+## TO DO
+# ensure Make sure only 3 expertise and specialties selected
+reduce_to_3 <- function(x) {
+  expertises <- strsplit(x, ", ")
+  sapply(expertises, function(y) {
+    if(length(y) < 3) 
+      return(paste(y, collapse = ", "))
+    paste(y[1:3], collapse = ", ")
+  })
+}
+
+listings$Expertise <- reduce_to_3(listings$Expertise)
+listings$Specialty <- reduce_to_3(listings$Specialty)
+
+
+# migrate old ones (only do once in 2026, then these will require new form submission in 2027)
+old_listings$`ASA Member Number` <- old_listings$ASAID
+
+# Migrate?
+# intersect(old_listings$`ASA Member Number`, current_members$`ASA Member Number`) %>% 
+#   length()
+
+to_migrate <- current_members %>% 
+  inner_join(old_listings) %>% 
+  filter(expiration_date > "2025-12-31")
+
+state_abb_to_name <- function(x) {
+  y <- rep(NA_character_, length(x))
+  
+  for(i in 1:length(x)) {
+    if(!is.na(x[i])) {
+      state <- state.name[state.abb %in% x[i]]
+      if(!length(state))
+        state <- ""
+      y[i] <- state
+    }
+       
+  }
+  y
+}
+
+listings_to_migrate <- to_migrate %>% 
+  mutate(
+    Name = paste0(FirstName, " ", LastName),
+    Expertise = "[migrated]", 
+    Specialty = "[migrated]", 
+    Location = state_abb_to_name(State),
+    Links = paste0('<a href="mailto:', membership_Individual_EmailAddress, 
+                   '">email</a>; <a href="', MoreInfo, '">website</a>')
+    ) %>% 
+  select(Name:Links)
+
+# Only first three expertise listed 
+listings <- bind_rows(arrange(listings, Name), listings_to_migrate) 
+
+listings %>% 
   datatable(options=list(pageLength=25, autoWidth=TRUE), rownames=FALSE, 
             escape = FALSE, filter = "top")
 ```
