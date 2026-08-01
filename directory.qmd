@@ -132,6 +132,9 @@ state_abb_to_name <- function(x) {
 }
 
 listings_to_migrate <- to_migrate %>% 
+  group_by(`ASA Member Number`) %>% 
+  slice(1) %>% 
+  ungroup() %>% 
   mutate(
     Name = paste0(FirstName, " ", LastName),
     Expertise = "[migrated]", 
