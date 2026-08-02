@@ -21,7 +21,7 @@ library(googlesheets4)
 
 ```
 
-```{r read-data, echo = FALSE, message = FALSE, cache = TRUE}
+```{r read-data, echo = FALSE, message = FALSE}
 
 # path to current membership, need to get this hy Download to local from https://ww2.amstat.org/OfficerReports/index.cfm, available on leadership hub
 path_to_current <- "~/OneDrive - University of Iowa/OtherService/ASA-CSNL/consultant_directory/CNSL_ Section on Statistical Consulting_Current (1).xls"
