@@ -24,7 +24,7 @@ library(googlesheets4)
 ```{r read-data, echo = FALSE, message = FALSE}
 
 # path to current membership, need to get this hy Download to local from https://ww2.amstat.org/OfficerReports/index.cfm, available on leadership hub
-path_to_current <- "~/OneDrive - University of Iowa/OtherService/ASA-CSNL/consultant_directory/CNSL_ Section on Statistical Consulting_Current (1).xls"
+path_to_current <- "../CNSL_ Section on Statistical Consulting_Current.xlsx"
 
 # path to google form (need authentication, contact Ryan Peterson)
 path_to_form_data <- 'https://docs.google.com/spreadsheets/d/1CKpngSWGC54YHUHwbOCyraWKOSkCoc4rzbvJWg3ZlqM/edit?usp=sharing'
@@ -37,7 +37,7 @@ current_members <- readxl::read_excel(path_to_current) %>%
 
 form_responses <- read_sheet(path_to_form_data) 
 
-old_listings <- readxl::read_excel('~/OneDrive - University of Iowa//OtherService/ASA-CSNL/consultant_directory/ASA Consultant Directory.xlsx')
+old_listings <- readxl::read_excel('../ASA Consultant Directory.xlsx')
 
 
 ```
