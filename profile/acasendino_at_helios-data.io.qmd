@@ -1,0 +1,15 @@
+---
+title: 'Alexander Casendino'
+params:
+  profile_name: 'Alexander Casendino'
+  profile_email: 'acasendino@helios-data.io'
+  profile_location: 'Washington, DC'
+  profile_website: 'helios-data.io'
+  profile_degree: 'MS / MA, Public Policy'
+  profile_context: 'Industry, Government, Non-profit'
+  profile_language: 'English'
+  profile_expertise: 'Data Management, Model Selection, Time Series & Forecasting'
+  profile_appspec: 'Economics, Marketing & Advertising, Technical Writing & Editing'
+---
+
+{{< include .profile.qmd >}}

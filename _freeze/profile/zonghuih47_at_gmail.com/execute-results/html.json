@@ -1,0 +1,17 @@
+{
+  "hash": "7a611381f1d6b9bcd526d7f818f8dfe4",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: 'Zonghui Hu'\nparams:\n  profile_name: 'Zonghui Hu'\n  profile_email: 'zonghuih47@gmail.com'\n  profile_location: '(not specified)'\n  profile_website: 'NA'\n  profile_degree: 'PhD / ScD, (field not specified)'\n  profile_context: 'NA'\n  profile_language: 'NA'\n  profile_expertise: 'Biostatistics, Causal Inference, High-Dimensional Data Analysis'\n  profile_appspec: 'Biological Sciences, Clinical Trials, Health & Medical Research'\n---\n\n---\nparams:\n  profile_name: Neal Fultz\n  profile_email: neal@njnm.co\n  profile_location: Los Angeles, CA\n  profile_website: https://linkedin.com/in/nfultz\n  profile_degree: PhD, UCLA\n  profile_context: Academic / Industry\n  profile_language: English\n  profile_expertise: Default\n  profile_appspec: Default \n---\n\n\n\n  * Location: \\(not specified\\)\n  * Contact: [zonghuih47@gmail\\.com](zonghuih47@gmail\\.com) \n  * Website: [NA](NA)\n  * Degree: PhD / ScD, (field not specified)\n  * Typical Consulting Context: NA\n  * Language(s): NA\n  * Expertise (top 3): Biostatistics, Causal Inference, High-Dimensional Data Analysis\n  * Application specializations (top 3): Biological Sciences, Clinical Trials, Health & Medical Research \n  \n\n",
+    "supporting": [
+      "zonghuih47_at_gmail.com_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

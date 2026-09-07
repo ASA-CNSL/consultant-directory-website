@@ -1,0 +1,15 @@
+---
+title: 'Xiaoming Sheng'
+params:
+  profile_name: 'Xiaoming Sheng'
+  profile_email: 'xiaoming.sheng@utah.edu'
+  profile_location: '(not specified)'
+  profile_website: 'https://profiles.faculty.utah.edu/u0383584'
+  profile_degree: 'PhD / ScD, (field not specified)'
+  profile_context: 'Academic / research'
+  profile_language: 'English, Mandarin'
+  profile_expertise: 'Biostatistics, Data Management, Model Selection'
+  profile_appspec: 'Epidemiology, Health & Medical Research, Public Health'
+---
+
+{{< include .profile.qmd >}}

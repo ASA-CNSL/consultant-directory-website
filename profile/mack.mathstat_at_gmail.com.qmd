@@ -1,0 +1,15 @@
+---
+title: 'Andrea Mack Reneau'
+params:
+  profile_name: 'Andrea Mack Reneau'
+  profile_email: 'mack.mathstat@gmail.com'
+  profile_location: '(not specified)'
+  profile_website: 'NA'
+  profile_degree: 'MS / MA, Statistics'
+  profile_context: 'Academic / research, Industry, Government'
+  profile_language: 'Spanish'
+  profile_expertise: 'Bayesian Methods, Data Collection Procedures, Data Management, Experimental Design, Machine Learning, Model Selection, Operations Research, Probability, Risk Assessment & Analysis, Sampling & Sample Design, Spatial Statistics, Statistical Process Control, Statistical Software - R, Statistical Software - SAS, Systems Analysis & Programming, Time Series & Forecasting'
+  profile_appspec: 'Cryptography, Energy, Engineering, Material Science, Computer Vision, and National Security'
+---
+
+{{< include .profile.qmd >}}

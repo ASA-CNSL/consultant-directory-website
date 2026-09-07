@@ -1,0 +1,15 @@
+---
+title: 'David R Bristol'
+params:
+  profile_name: 'David R Bristol'
+  profile_email: 'drbris1@gmail.com'
+  profile_location: 'North Carolina USA'
+  profile_website: 'NA'
+  profile_degree: 'PhD / ScD, Statistics'
+  profile_context: 'Industry'
+  profile_language: 'English'
+  profile_expertise: 'Biostatistics, Data Management, Technical Writing & Editing'
+  profile_appspec: 'Clinical Trials, Health & Medical Research, Pharmaceutical Industry'
+---
+
+{{< include .profile.qmd >}}

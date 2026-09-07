@@ -1,0 +1,15 @@
+---
+title: 'Ofer'
+params:
+  profile_name: 'Ofer'
+  profile_email: 'ofer.harel@uconn.edu'
+  profile_location: 'CT, NY, MA'
+  profile_website: 'https://ofer-harel.uconn.edu/'
+  profile_degree: 'P.Stat, Statistics'
+  profile_context: 'Academic / research, Industry, Government, Legal / expert witness, Non-profit'
+  profile_language: 'English,'
+  profile_expertise: 'Biostatistics, Data Management, Decision Theory, Experimental Design, Expert Witness, Statistical Training, Incomplete data,'
+  profile_appspec: 'Biological Sciences, Clinical Trials, Education & Teaching, Engineering, Epidemiology, Health & Medical Research, Pharmaceutical Industry, Public Health'
+---
+
+{{< include .profile.qmd >}}

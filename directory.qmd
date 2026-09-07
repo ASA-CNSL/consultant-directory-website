@@ -18,6 +18,20 @@ library(dplyr)
 library(knitr)
 library(DT)
 library(googlesheets4)
+library(htmltools)
+
+# # Get project metadata
+# # Get the build directory (defaults to _site)
+# proj_info <- quarto::quarto_inspect()
+# build_dir <- proj_info$project[["output-dir"]] %||% "_site"
+# 
+# str(proj_info)
+# message("build_dir:\t", build_dir)
+
+profile_target <- function(email, where=\(x) file.path("profile", x)) {
+    sprintf(fmt="%s.html", sub("@", "_at_", email)) |> where()
+  
+}
 
 ```
 
@@ -32,7 +46,8 @@ path_to_form_data <- 'https://docs.google.com/spreadsheets/d/1CKpngSWGC54YHUHwbO
 # Read Section Membership Directory & form data 
 current_members <- readxl::read_excel(path_to_current) %>% 
   rename(`ASA Member Number` = membership_Individual_LocalID, 
-         expiration_date = membership_ExpirationDate)
+         expiration_date = membership_ExpirationDate) %>% 
+  mutate(expiration_date = as.Date(expiration_date))
 
 
 form_responses <- read_sheet(path_to_form_data) 
@@ -57,6 +72,14 @@ form_responses <- form_responses %>%
 
 # Add filter for timestamp within 365 days 
 form_responses <- form_responses %>% 
+  mutate(listing_age = difftime(Sys.time(), Timestamp, units = "days"),
+         expiration_date = as.Date('2026-12-31') #TODO
+         ) %>% 
+  filter(listing_age <= 365)
+
+# merge with existing members 
+directory_members <- left_join(form_responses, current_members) %>% 
+  mutate(active = expiration_date >= Sys.Date()) %>% 
   mutate(listing_age = difftime(Sys.time(), Timestamp, units = "days")) %>% 
   filter(listing_age <= 365) %>% 
   filter(!is.na(`ASA Member Number`)) %>% 
@@ -78,6 +101,7 @@ directory_members <-directory_members %>%
 # nrow(directory_members) # Number of forms matching currently-active Section members 
 
 # Add filter for validated
+
 listings <- directory_members %>% 
   select(Name = `Name (as you'd like it to appear)`, 
          Expertise = `Area(s) of Expertise. Select up to 3.`,
@@ -88,6 +112,7 @@ listings <- directory_members %>%
          Contact = `Email address (as you'd like it to appear)`,
          Website = `Website URL (optional)`) %>% 
   mutate(Links = paste0('<a href="mailto:', Contact, '">email</a>; <a href="', Website, '">website</a>')) %>% 
+  mutate(Name = mapply(\(x,y){as.character(a(href=profile_target(x), y))}, Contact, Name)) %>% 
   select(-Contact, -Website, -Mode)
 
 ## TO DO

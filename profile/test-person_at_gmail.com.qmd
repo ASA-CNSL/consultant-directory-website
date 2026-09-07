@@ -1,0 +1,15 @@
+---
+title: 'Test Person'
+params:
+  profile_name: 'Test Person'
+  profile_email: 'test-person@gmail.com'
+  profile_location: '(not specified)'
+  profile_website: 'NA'
+  profile_degree: 'NA, (field not specified)'
+  profile_context: 'NA'
+  profile_language: 'NA'
+  profile_expertise: 'Bayesian Methods, Biostatistics, Causal Inference'
+  profile_appspec: 'Accounting & Actuarial Sciences, Agriculture, Testing Websites'
+---
+
+{{< include .profile.qmd >}}

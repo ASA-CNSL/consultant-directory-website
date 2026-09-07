@@ -1,0 +1,15 @@
+---
+title: 'David Nichols'
+params:
+  profile_name: 'David Nichols'
+  profile_email: 'dpnichols@gmail.com'
+  profile_location: '(not specified)'
+  profile_website: 'NA'
+  profile_degree: 'PhD / ScD, Research Methodology and Quantitative Psychology'
+  profile_context: 'Academic / research, Industry, Government, Non-profit'
+  profile_language: 'English'
+  profile_expertise: 'Statistical Software Design, Statistical Training'
+  profile_appspec: 'NA'
+---
+
+{{< include .profile.qmd >}}

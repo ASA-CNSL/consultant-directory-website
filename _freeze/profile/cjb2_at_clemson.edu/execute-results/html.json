@@ -1,0 +1,17 @@
+{
+  "hash": "e392679dee6aed9e1d92358efe9b7267",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: 'Christy Brown'\nparams:\n  profile_name: 'Christy Brown'\n  profile_email: 'cjb2@clemson.edu'\n  profile_location: 'Clemson, SC'\n  profile_website: 'https://www.clemson.edu/education/about/directory/profile.html?userid=CJB2'\n  profile_degree: 'PhD / ScD, Quantitative Methods in Educational Psychology'\n  profile_context: 'Academic / research'\n  profile_language: 'English'\n  profile_expertise: 'Survey Design & Analysis, Technical Writing & Editing, Psychometric modeling'\n  profile_appspec: 'Education & Teaching'\n---\n\n---\nparams:\n  profile_name: Neal Fultz\n  profile_email: neal@njnm.co\n  profile_location: Los Angeles, CA\n  profile_website: https://linkedin.com/in/nfultz\n  profile_degree: PhD, UCLA\n  profile_context: Academic / Industry\n  profile_language: English\n  profile_expertise: Default\n  profile_appspec: Default \n---\n\n\n\n  * Location: Clemson\\, SC\n  * Contact: [cjb2@clemson\\.edu](cjb2@clemson\\.edu) \n  * Website: [https://www.clemson.edu/education/about/directory/profile.html?userid=CJB2](https://www.clemson.edu/education/about/directory/profile.html?userid=CJB2)\n  * Degree: PhD / ScD, Quantitative Methods in Educational Psychology\n  * Typical Consulting Context: Academic / research\n  * Language(s): English\n  * Expertise (top 3): Survey Design & Analysis, Technical Writing & Editing, Psychometric modeling\n  * Application specializations (top 3): Education & Teaching \n  \n\n",
+    "supporting": [
+      "cjb2_at_clemson.edu_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -1,0 +1,15 @@
+---
+title: 'Todd Schwartz'
+params:
+  profile_name: 'Todd Schwartz'
+  profile_email: 'trjjk.schwartz@gmail.com'
+  profile_location: 'Research Triangle, NC'
+  profile_website: 'NA'
+  profile_degree: 'DrPH, Biostatistics'
+  profile_context: 'Academic / research'
+  profile_language: 'English'
+  profile_expertise: 'Biostatistics, Statistical Training'
+  profile_appspec: 'Education & Teaching, Health & Medical Research, Public Health'
+---
+
+{{< include .profile.qmd >}}

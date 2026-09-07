@@ -1,0 +1,17 @@
+{
+  "hash": "da18701ad55f17253f12d140f55a7368",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: 'William Huber'\nparams:\n  profile_name: 'William Huber'\n  profile_email: 'whuber@analysisandinference.com'\n  profile_location: 'Philadelphia, PA'\n  profile_website: 'https://www.analysisandinference.com/'\n  profile_degree: 'PhD / ScD, Mathematics'\n  profile_context: 'Industry, Legal / expert witness'\n  profile_language: 'English, Spanish, French'\n  profile_expertise: 'Expert Witness, Sampling & Sample Design, Spatial Statistics'\n  profile_appspec: 'Environmental Sciences, Law & Jurisprudence, Risk Assessment'\n---\n\n---\nparams:\n  profile_name: Neal Fultz\n  profile_email: neal@njnm.co\n  profile_location: Los Angeles, CA\n  profile_website: https://linkedin.com/in/nfultz\n  profile_degree: PhD, UCLA\n  profile_context: Academic / Industry\n  profile_language: English\n  profile_expertise: Default\n  profile_appspec: Default \n---\n\n\n\n  * Location: Philadelphia\\, PA\n  * Contact: [whuber@analysisandinference\\.com](whuber@analysisandinference\\.com) \n  * Website: [https://www.analysisandinference.com/](https://www.analysisandinference.com/)\n  * Degree: PhD / ScD, Mathematics\n  * Typical Consulting Context: Industry, Legal / expert witness\n  * Language(s): English, Spanish, French\n  * Expertise (top 3): Expert Witness, Sampling & Sample Design, Spatial Statistics\n  * Application specializations (top 3): Environmental Sciences, Law & Jurisprudence, Risk Assessment \n  \n\n",
+    "supporting": [
+      "whuber_at_analysisandinference.com_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

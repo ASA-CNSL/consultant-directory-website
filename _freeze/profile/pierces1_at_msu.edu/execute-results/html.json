@@ -1,0 +1,17 @@
+{
+  "hash": "ed051339e33f5e064e98c7edcef02eaa",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: 'Steven J. Pierce'\nparams:\n  profile_name: 'Steven J. Pierce'\n  profile_email: 'pierces1@msu.edu'\n  profile_location: 'Michigan'\n  profile_website: 'https://sjpierce.github.io/about.html'\n  profile_degree: 'PhD / ScD, Ecological-Community Psychology'\n  profile_context: 'Academic / research, Industry, Government, Non-profit'\n  profile_language: 'English'\n  profile_expertise: 'Biostatistics, Survey Design & Analysis, Longitudinal Models, Measurement/Psychometrics, Latent Variable Models/Structural Equation Models, Program Evaluation, Reproducible Research'\n  profile_appspec: 'Education & Teaching, Health & Medical Research, Social Science, Psychology'\n---\n\n---\nparams:\n  profile_name: Neal Fultz\n  profile_email: neal@njnm.co\n  profile_location: Los Angeles, CA\n  profile_website: https://linkedin.com/in/nfultz\n  profile_degree: PhD, UCLA\n  profile_context: Academic / Industry\n  profile_language: English\n  profile_expertise: Default\n  profile_appspec: Default \n---\n\n\n\n  * Location: Michigan\n  * Contact: [pierces1@msu\\.edu](pierces1@msu\\.edu) \n  * Website: [https://sjpierce.github.io/about.html](https://sjpierce.github.io/about.html)\n  * Degree: PhD / ScD, Ecological-Community Psychology\n  * Typical Consulting Context: Academic / research, Industry, Government, Non-profit\n  * Language(s): English\n  * Expertise (top 3): Biostatistics, Survey Design & Analysis, Longitudinal Models, Measurement/Psychometrics, Latent Variable Models/Structural Equation Models, Program Evaluation, Reproducible Research\n  * Application specializations (top 3): Education & Teaching, Health & Medical Research, Social Science, Psychology \n  \n\n",
+    "supporting": [
+      "pierces1_at_msu.edu_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

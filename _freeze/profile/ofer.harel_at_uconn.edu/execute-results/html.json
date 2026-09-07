@@ -1,0 +1,17 @@
+{
+  "hash": "be3cb1c0ddbee43388019dfa238994dd",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: 'Ofer'\nparams:\n  profile_name: 'Ofer'\n  profile_email: 'ofer.harel@uconn.edu'\n  profile_location: 'CT, NY, MA'\n  profile_website: 'https://ofer-harel.uconn.edu/'\n  profile_degree: 'P.Stat, Statistics'\n  profile_context: 'Academic / research, Industry, Government, Legal / expert witness, Non-profit'\n  profile_language: 'English,'\n  profile_expertise: 'Biostatistics, Data Management, Decision Theory, Experimental Design, Expert Witness, Statistical Training, Incomplete data,'\n  profile_appspec: 'Biological Sciences, Clinical Trials, Education & Teaching, Engineering, Epidemiology, Health & Medical Research, Pharmaceutical Industry, Public Health'\n---\n\n---\nparams:\n  profile_name: Neal Fultz\n  profile_email: neal@njnm.co\n  profile_location: Los Angeles, CA\n  profile_website: https://linkedin.com/in/nfultz\n  profile_degree: PhD, UCLA\n  profile_context: Academic / Industry\n  profile_language: English\n  profile_expertise: Default\n  profile_appspec: Default \n---\n\n\n\n  * Location: CT\\, NY\\, MA\n  * Contact: [ofer\\.harel@uconn\\.edu](ofer\\.harel@uconn\\.edu) \n  * Website: [https://ofer-harel.uconn.edu/](https://ofer-harel.uconn.edu/)\n  * Degree: P.Stat, Statistics\n  * Typical Consulting Context: Academic / research, Industry, Government, Legal / expert witness, Non-profit\n  * Language(s): English,\n  * Expertise (top 3): Biostatistics, Data Management, Decision Theory, Experimental Design, Expert Witness, Statistical Training, Incomplete data,\n  * Application specializations (top 3): Biological Sciences, Clinical Trials, Education & Teaching, Engineering, Epidemiology, Health & Medical Research, Pharmaceutical Industry, Public Health \n  \n\n",
+    "supporting": [
+      "ofer.harel_at_uconn.edu_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

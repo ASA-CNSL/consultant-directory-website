@@ -1,0 +1,17 @@
+{
+  "hash": "07bf7c70488e7a81f66d36a0a5949f5f",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: 'Shankar Viswanathan'\nparams:\n  profile_name: 'Shankar Viswanathan'\n  profile_email: 'svhealthanalytics@gmail.com'\n  profile_location: 'Springfield/Worcester, Massachusetts'\n  profile_website: 'NA'\n  profile_degree: 'DrPH, MSc, Biostatistics'\n  profile_context: 'Academic / research, Industry, Government'\n  profile_language: 'English'\n  profile_expertise: 'Biostatistics, Causal Inference, Data Management'\n  profile_appspec: 'Biological Sciences, Clinical Trials, Epidemiology, Health & Medical Research, Public Health'\n---\n\n---\nparams:\n  profile_name: Neal Fultz\n  profile_email: neal@njnm.co\n  profile_location: Los Angeles, CA\n  profile_website: https://linkedin.com/in/nfultz\n  profile_degree: PhD, UCLA\n  profile_context: Academic / Industry\n  profile_language: English\n  profile_expertise: Default\n  profile_appspec: Default \n---\n\n\n\n  * Location: Springfield/Worcester\\, Massachusetts\n  * Contact: [svhealthanalytics@gmail\\.com](svhealthanalytics@gmail\\.com) \n  * Website: [NA](NA)\n  * Degree: DrPH, MSc, Biostatistics\n  * Typical Consulting Context: Academic / research, Industry, Government\n  * Language(s): English\n  * Expertise (top 3): Biostatistics, Causal Inference, Data Management\n  * Application specializations (top 3): Biological Sciences, Clinical Trials, Epidemiology, Health & Medical Research, Public Health \n  \n\n",
+    "supporting": [
+      "svhealthanalytics_at_gmail.com_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

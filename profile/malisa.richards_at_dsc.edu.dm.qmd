@@ -1,0 +1,15 @@
+---
+title: 'Malisa Richards'
+params:
+  profile_name: 'Malisa Richards'
+  profile_email: 'malisa.richards@dsc.edu.dm'
+  profile_location: 'Caribbean'
+  profile_website: 'https://dsc.edu.dm'
+  profile_degree: 'MS / MA, (field not specified)'
+  profile_context: 'Academic / research, Industry, Government'
+  profile_language: 'English'
+  profile_expertise: 'Biostatistics, Data Collection Procedures, Data Management, Experimental Design, Risk Assessment & Analysis, Sampling & Sample Design, Statistical Training, Survey Design & Analysis'
+  profile_appspec: 'Clinical Trials, Computer Sciences, Education & Teaching, Information Systems, Technical Writing & Editing'
+---
+
+{{< include .profile.qmd >}}

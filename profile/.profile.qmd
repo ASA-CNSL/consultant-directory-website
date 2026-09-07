@@ -1,0 +1,27 @@
+---
+params:
+  profile_name: Neal Fultz
+  profile_email: neal@njnm.co
+  profile_location: Los Angeles, CA
+  profile_website: https://linkedin.com/in/nfultz
+  profile_degree: PhD, UCLA
+  profile_context: Academic / Industry
+  profile_language: English
+  profile_expertise: Default
+  profile_appspec: Default 
+---
+
+```{r, echo=FALSE, results='asis'}
+require(htmltools, quietly = TRUE)
+profile <- setNames(params, sub("profile_", "", names(params)))
+```
+
+  * Location: `{r} profile$location`
+  * Contact: [`{r} profile$email`](`{r} profile$email`) 
+  * Website: [`r profile$website`](`r profile$website`)
+  * Degree: `r profile$degree`
+  * Typical Consulting Context: `r profile$context`
+  * Language(s): `r profile$language`
+  * Expertise (top 3): `r profile$expertise`
+  * Application specializations (top 3): `r profile$appspec` 
+  

@@ -1,0 +1,17 @@
+{
+  "hash": "116c99f6cb4ecd4d46c3716fea368553",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: 'Xiaoming Sheng'\nparams:\n  profile_name: 'Xiaoming Sheng'\n  profile_email: 'xiaoming.sheng@utah.edu'\n  profile_location: '(not specified)'\n  profile_website: 'https://profiles.faculty.utah.edu/u0383584'\n  profile_degree: 'PhD / ScD, (field not specified)'\n  profile_context: 'Academic / research'\n  profile_language: 'English, Mandarin'\n  profile_expertise: 'Biostatistics, Data Management, Model Selection'\n  profile_appspec: 'Epidemiology, Health & Medical Research, Public Health'\n---\n\n---\nparams:\n  profile_name: Neal Fultz\n  profile_email: neal@njnm.co\n  profile_location: Los Angeles, CA\n  profile_website: https://linkedin.com/in/nfultz\n  profile_degree: PhD, UCLA\n  profile_context: Academic / Industry\n  profile_language: English\n  profile_expertise: Default\n  profile_appspec: Default \n---\n\n\n\n  * Location: \\(not specified\\)\n  * Contact: [xiaoming\\.sheng@utah\\.edu](xiaoming\\.sheng@utah\\.edu) \n  * Website: [https://profiles.faculty.utah.edu/u0383584](https://profiles.faculty.utah.edu/u0383584)\n  * Degree: PhD / ScD, (field not specified)\n  * Typical Consulting Context: Academic / research\n  * Language(s): English, Mandarin\n  * Expertise (top 3): Biostatistics, Data Management, Model Selection\n  * Application specializations (top 3): Epidemiology, Health & Medical Research, Public Health \n  \n\n",
+    "supporting": [
+      "xiaoming.sheng_at_utah.edu_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

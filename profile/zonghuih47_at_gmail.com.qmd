@@ -1,0 +1,15 @@
+---
+title: 'Zonghui Hu'
+params:
+  profile_name: 'Zonghui Hu'
+  profile_email: 'zonghuih47@gmail.com'
+  profile_location: '(not specified)'
+  profile_website: 'NA'
+  profile_degree: 'PhD / ScD, (field not specified)'
+  profile_context: 'NA'
+  profile_language: 'NA'
+  profile_expertise: 'Biostatistics, Causal Inference, High-Dimensional Data Analysis'
+  profile_appspec: 'Biological Sciences, Clinical Trials, Health & Medical Research'
+---
+
+{{< include .profile.qmd >}}

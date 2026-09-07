@@ -1,0 +1,15 @@
+---
+title: 'Stephan Arndt'
+params:
+  profile_name: 'Stephan Arndt'
+  profile_email: 'sarndt0@gmail.com'
+  profile_location: '(not specified)'
+  profile_website: 'NA'
+  profile_degree: 'PhD / ScD, Psychology'
+  profile_context: 'Academic / research, Industry, Non-profit'
+  profile_language: 'English'
+  profile_expertise: 'Biostatistics, Non Parametric Statistics, Technical Writing & Editing'
+  profile_appspec: 'Biological Sciences, Clinical Trials'
+---
+
+{{< include .profile.qmd >}}

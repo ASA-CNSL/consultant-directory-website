@@ -1,0 +1,15 @@
+---
+title: 'Jay Iyengar'
+params:
+  profile_name: 'Jay Iyengar'
+  profile_email: 'datasyscon@gmail.com'
+  profile_location: 'Chicago / Illinois / Midwest'
+  profile_website: 'NA'
+  profile_degree: 'MS / MA, Public Policy / Economics / Public Health / Statistics'
+  profile_context: 'Academic / research, Industry'
+  profile_language: 'English, Spanish'
+  profile_expertise: 'Biostatistics, Statistical Software Design, Systems Analysis & Programming'
+  profile_appspec: 'Epidemiology, Health & Medical Research, Public Health'
+---
+
+{{< include .profile.qmd >}}

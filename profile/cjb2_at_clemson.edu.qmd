@@ -1,0 +1,15 @@
+---
+title: 'Christy Brown'
+params:
+  profile_name: 'Christy Brown'
+  profile_email: 'cjb2@clemson.edu'
+  profile_location: 'Clemson, SC'
+  profile_website: 'https://www.clemson.edu/education/about/directory/profile.html?userid=CJB2'
+  profile_degree: 'PhD / ScD, Quantitative Methods in Educational Psychology'
+  profile_context: 'Academic / research'
+  profile_language: 'English'
+  profile_expertise: 'Survey Design & Analysis, Technical Writing & Editing, Psychometric modeling'
+  profile_appspec: 'Education & Teaching'
+---
+
+{{< include .profile.qmd >}}

@@ -1,0 +1,15 @@
+---
+title: 'Charles South'
+params:
+  profile_name: 'Charles South'
+  profile_email: 'csouth@smu.edu'
+  profile_location: 'Dallas/Texas'
+  profile_website: 'https://www.linkedin.com/in/charles-south-a2bb5797/'
+  profile_degree: 'PhD / ScD, Statistical Science'
+  profile_context: 'Academic / research, Industry, Non-profit'
+  profile_language: 'English'
+  profile_expertise: 'Bayesian Methods, Model Selection, Statistical Training'
+  profile_appspec: 'Education & Teaching, Health & Medical Research, Sports Analytics'
+---
+
+{{< include .profile.qmd >}}

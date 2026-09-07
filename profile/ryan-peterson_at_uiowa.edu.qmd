@@ -1,0 +1,15 @@
+---
+title: 'Ryan A. Peterson'
+params:
+  profile_name: 'Ryan A. Peterson'
+  profile_email: 'ryan-peterson@uiowa.edu'
+  profile_location: 'Iowa'
+  profile_website: 'https://petersonr.github.io/'
+  profile_degree: 'PhD / ScD, Biostatistics'
+  profile_context: 'Academic / research'
+  profile_language: 'English'
+  profile_expertise: 'Biostatistics, Model Selection, Statistical Software - R'
+  profile_appspec: 'Epidemiology, Health & Medical Research, Public Health'
+---
+
+{{< include .profile.qmd >}}

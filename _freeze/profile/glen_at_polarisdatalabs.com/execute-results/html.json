@@ -1,0 +1,17 @@
+{
+  "hash": "d7de57480ea4252530ab97a84e531291",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: 'Glen Wright Colopy'\nparams:\n  profile_name: 'Glen Wright Colopy'\n  profile_email: 'glen@polarisdatalabs.com'\n  profile_location: 'Research Triangle Park, North Carolina. Available to travel nationally or internationally with sufficient notice.'\n  profile_website: 'polarisdatalabs.com'\n  profile_degree: 'PhD / ScD, Biomedical Machine Learning'\n  profile_context: 'Academic / research, Industry, Non-profit'\n  profile_language: 'English, German'\n  profile_expertise: 'Bayesian Methods, Machine Learning, Statistical Training'\n  profile_appspec: 'Biological Sciences, Clinical Trials, Pharmaceutical Industry'\n---\n\n---\nparams:\n  profile_name: Neal Fultz\n  profile_email: neal@njnm.co\n  profile_location: Los Angeles, CA\n  profile_website: https://linkedin.com/in/nfultz\n  profile_degree: PhD, UCLA\n  profile_context: Academic / Industry\n  profile_language: English\n  profile_expertise: Default\n  profile_appspec: Default \n---\n\n\n\n  * Location: Research Triangle Park\\, North Carolina\\. Available to travel nationally or internationally with sufficient notice\\.\n  * Contact: [glen@polarisdatalabs\\.com](glen@polarisdatalabs\\.com) \n  * Website: [polarisdatalabs.com](polarisdatalabs.com)\n  * Degree: PhD / ScD, Biomedical Machine Learning\n  * Typical Consulting Context: Academic / research, Industry, Non-profit\n  * Language(s): English, German\n  * Expertise (top 3): Bayesian Methods, Machine Learning, Statistical Training\n  * Application specializations (top 3): Biological Sciences, Clinical Trials, Pharmaceutical Industry \n  \n\n",
+    "supporting": [
+      "glen_at_polarisdatalabs.com_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

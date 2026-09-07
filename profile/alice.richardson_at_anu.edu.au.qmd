@@ -1,0 +1,15 @@
+---
+title: 'Alice Richardson'
+params:
+  profile_name: 'Alice Richardson'
+  profile_email: 'alice.richardson@anu.edu.au'
+  profile_location: '(not specified)'
+  profile_website: 'NA'
+  profile_degree: 'PhD / ScD, Statistics'
+  profile_context: 'Academic / research'
+  profile_language: 'English'
+  profile_expertise: 'Biostatistics, Model Selection, Statistical Training'
+  profile_appspec: 'Health & Medical Research'
+---
+
+{{< include .profile.qmd >}}

@@ -1,0 +1,15 @@
+---
+title: 'Samantha Robinson'
+params:
+  profile_name: 'Samantha Robinson'
+  profile_email: 'sewrob@uark.edu'
+  profile_location: 'Fayetteville, Arkansas / Northwest Arkansas'
+  profile_website: 'NA'
+  profile_degree: 'PhD / ScD, (field not specified)'
+  profile_context: 'Academic / research, Industry'
+  profile_language: 'English'
+  profile_expertise: 'Biostatistics, Statistical Training, Survey Design & Analysis'
+  profile_appspec: 'Agriculture, Education & Teaching, Environmental Sciences, Health & Medical Research, Public Health'
+---
+
+{{< include .profile.qmd >}}

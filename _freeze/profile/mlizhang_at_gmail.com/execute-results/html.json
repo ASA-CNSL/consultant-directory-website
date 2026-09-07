@@ -1,0 +1,17 @@
+{
+  "hash": "16c9423ab8d2c9f8e70aad856b52739b",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: 'Li Zhang'\nparams:\n  profile_name: 'Li Zhang'\n  profile_email: 'mlizhang@gmail.com'\n  profile_location: 'Bay Area, California'\n  profile_website: 'https://profiles.ucsf.edu/li.zhang'\n  profile_degree: 'PhD / ScD, Statistics'\n  profile_context: 'Academic / research, Industry, Government, Non-profit'\n  profile_language: 'English, Mandarin'\n  profile_expertise: 'Biostatistics, Experimental Design, Graphics, High-Dimensional Data Analysis, Machine Learning, Model Selection, Statistical Training'\n  profile_appspec: 'Biological Sciences, Clinical Trials, Epidemiology, Public Health'\n---\n\n---\nparams:\n  profile_name: Neal Fultz\n  profile_email: neal@njnm.co\n  profile_location: Los Angeles, CA\n  profile_website: https://linkedin.com/in/nfultz\n  profile_degree: PhD, UCLA\n  profile_context: Academic / Industry\n  profile_language: English\n  profile_expertise: Default\n  profile_appspec: Default \n---\n\n\n\n  * Location: Bay Area\\, California\n  * Contact: [mlizhang@gmail\\.com](mlizhang@gmail\\.com) \n  * Website: [https://profiles.ucsf.edu/li.zhang](https://profiles.ucsf.edu/li.zhang)\n  * Degree: PhD / ScD, Statistics\n  * Typical Consulting Context: Academic / research, Industry, Government, Non-profit\n  * Language(s): English, Mandarin\n  * Expertise (top 3): Biostatistics, Experimental Design, Graphics, High-Dimensional Data Analysis, Machine Learning, Model Selection, Statistical Training\n  * Application specializations (top 3): Biological Sciences, Clinical Trials, Epidemiology, Public Health \n  \n\n",
+    "supporting": [
+      "mlizhang_at_gmail.com_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
