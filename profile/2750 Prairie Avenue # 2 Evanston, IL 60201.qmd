@@ -1,9 +1,0 @@
----
-title: 'David Nichols'
-params:
-  profile_name: 'David Nichols'
-  profile_email: '2750 Prairie Avenue # 2 Evanston, IL 60201'
-  profile_location: 'NA'
----
-
-{{< include .profile.qmd >}}
