@@ -1,12 +1,10 @@
-library(googlesheets4)
-library(dplyr)
 
 # Setup
 build_dir <- "_site"
 if (!dir.exists("profile")) dir.create("profile")
 
 # 1. Get Data
-form_responses <- read_sheet('https://docs.google.com/spreadsheets/d/1CKpngSWGC54YHUHwbOCyraWKOSkCoc4rzbvJWg3ZlqM/edit?usp=sharing')
+form_responses <- readRDS("form_responses.RDS")
 
 # 2. Loop and write .qmd files
 for (i in 1:nrow(form_responses)) {

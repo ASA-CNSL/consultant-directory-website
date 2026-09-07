@@ -52,6 +52,20 @@ current_members <- readxl::read_excel(path_to_current) %>%
 
 form_responses <- read_sheet(path_to_form_data) 
 
+# will need to save and track some info for profile building
+form_responses |> 
+  select(`Email address (as you'd like it to appear)`, 
+         `Name (as you'd like it to appear)`, 
+         `In-person availability (if applicable, list city/state/region)`, 
+         `Website URL (optional)`, 
+         `Highest Degree`, 
+         `Field of Degree`,
+         `Typical consulting context`,
+         Languages,
+         `Area(s) of Expertise. Select up to 3.`,
+         `Application Specialties (up to 3)`) |> 
+  saveRDS("form_responses.RDS")
+
 old_listings <- readxl::read_excel('../ASA Consultant Directory.xlsx')
 
 
