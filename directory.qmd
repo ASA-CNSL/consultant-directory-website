@@ -111,7 +111,10 @@ listings <- directory_members %>%
          Languages = Languages,
          Contact = `Email address (as you'd like it to appear)`,
          Website = `Website URL (optional)`) %>% 
-  mutate(Links = paste0('<a href="mailto:', Contact, '">email</a>; <a href="', Website, '">website</a>')) %>% 
+  mutate(Links = paste0('<a href="mailto:', Contact, '">email</a>')) %>% 
+  mutate(Website = gsub("https://", "", Website)) %>% 
+  mutate(Links = ifelse(!is.na(Website), 
+                        paste0(Links, '; <a href="https://', Website, '">website</a>'), Links)) %>% 
   mutate(Name = mapply(\(x,y){as.character(a(href=profile_target(x), y))}, Contact, Name)) %>% 
   select(-Contact, -Website, -Mode)
 
