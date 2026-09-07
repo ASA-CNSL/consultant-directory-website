@@ -1,0 +1,17 @@
+{
+  "hash": "852270fd9f819eb74c50da2235ad57dd",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: 'Charles South'\nparams:\n  profile_name: 'Charles South'\n  profile_email: 'csouth@smu.edu'\n  profile_location: 'Dallas/Texas'\n  profile_website: 'https://www.linkedin.com/in/charles-south-a2bb5797/'\n  profile_degree: 'PhD / ScD, Statistical Science'\n  profile_context: 'Academic / research, Industry, Non-profit'\n  profile_language: 'English'\n  profile_expertise: 'Bayesian Methods, Model Selection, Statistical Training'\n  profile_appspec: 'Education & Teaching, Health & Medical Research, Sports Analytics'\n---\n\n---\nparams:\n  profile_name: Neal Fultz\n  profile_email: neal@njnm.co\n  profile_location: Los Angeles, CA\n  profile_website: https://linkedin.com/in/nfultz\n  profile_degree: PhD, UCLA\n  profile_context: Academic / Industry\n  profile_language: English\n  profile_expertise: Default\n  profile_appspec: Default \n---\n\n\n\n  * Location: Dallas/Texas\n  * Contact: [csouth@smu\\.edu](csouth@smu\\.edu) \n  * Website: [https://www.linkedin.com/in/charles-south-a2bb5797/](https://www.linkedin.com/in/charles-south-a2bb5797/)\n  * Degree: PhD / ScD, Statistical Science\n  * Typical Consulting Context: Academic / research, Industry, Non-profit\n  * Language(s): English\n  * Expertise (top 3): Bayesian Methods, Model Selection, Statistical Training\n  * Application specializations (top 3): Education & Teaching, Health & Medical Research, Sports Analytics \n  \n\n",
+    "supporting": [
+      "csouth_at_smu.edu_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -1,0 +1,15 @@
+---
+title: 'Cara Joyce'
+params:
+  profile_name: 'Cara Joyce'
+  profile_email: 'carajoycebiostats@gmail.com'
+  profile_location: '(not specified)'
+  profile_website: 'NA'
+  profile_degree: 'PhD / ScD, Biostatistics'
+  profile_context: 'Academic / research, Industry'
+  profile_language: 'NA'
+  profile_expertise: 'Biostatistics'
+  profile_appspec: 'Clinical Trials, Epidemiology, Health & Medical Research, Pharmaceutical Industry, Public Health'
+---
+
+{{< include .profile.qmd >}}

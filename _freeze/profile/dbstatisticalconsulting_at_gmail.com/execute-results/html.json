@@ -1,0 +1,17 @@
+{
+  "hash": "eed9c33f37ec98b2962adf740d31632c",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: 'David Guy'\nparams:\n  profile_name: 'David Guy'\n  profile_email: 'dbstatisticalconsulting@gmail.com'\n  profile_location: 'Vero Beachn FL'\n  profile_website: 'https://www.databridgestatisticalconsultinginc.com/'\n  profile_degree: 'PhD / ScD, Applied Statistics'\n  profile_context: 'Industry'\n  profile_language: 'English, French'\n  profile_expertise: 'Bayesian Methods, Data Management, Graphics, High-Dimensional Data Analysis, Machine Learning, Market Research, Model Selection, Non Parametric Statistics, Operations Research, Probability, Quality Management, 6-Sigma, Risk Assessment & Analysis, Statistical Process Control, Statistical Software Design, Statistical Training, Systems Analysis & Programming, Time Series & Forecasting'\n  profile_appspec: 'Economics, Engineering, Finance and Banking, Health & Medical Research, Human Resources, Marketing & Advertising, Quality & Process Improvement'\n---\n\n---\nparams:\n  profile_name: Neal Fultz\n  profile_email: neal@njnm.co\n  profile_location: Los Angeles, CA\n  profile_website: https://linkedin.com/in/nfultz\n  profile_degree: PhD, UCLA\n  profile_context: Academic / Industry\n  profile_language: English\n  profile_expertise: Default\n  profile_appspec: Default \n---\n\n\n\n  * Location: Vero Beachn FL\n  * Contact: [dbstatisticalconsulting@gmail\\.com](dbstatisticalconsulting@gmail\\.com) \n  * Website: [https://www.databridgestatisticalconsultinginc.com/](https://www.databridgestatisticalconsultinginc.com/)\n  * Degree: PhD / ScD, Applied Statistics\n  * Typical Consulting Context: Industry\n  * Language(s): English, French\n  * Expertise (top 3): Bayesian Methods, Data Management, Graphics, High-Dimensional Data Analysis, Machine Learning, Market Research, Model Selection, Non Parametric Statistics, Operations Research, Probability, Quality Management, 6-Sigma, Risk Assessment & Analysis, Statistical Process Control, Statistical Software Design, Statistical Training, Systems Analysis & Programming, Time Series & Forecasting\n  * Application specializations (top 3): Economics, Engineering, Finance and Banking, Health & Medical Research, Human Resources, Marketing & Advertising, Quality & Process Improvement \n  \n\n",
+    "supporting": [
+      "dbstatisticalconsulting_at_gmail.com_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

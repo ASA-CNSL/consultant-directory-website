@@ -1,0 +1,15 @@
+---
+title: 'William Huber'
+params:
+  profile_name: 'William Huber'
+  profile_email: 'whuber@analysisandinference.com'
+  profile_location: 'Philadelphia, PA'
+  profile_website: 'https://www.analysisandinference.com/'
+  profile_degree: 'PhD / ScD, Mathematics'
+  profile_context: 'Industry, Legal / expert witness'
+  profile_language: 'English, Spanish, French'
+  profile_expertise: 'Expert Witness, Sampling & Sample Design, Spatial Statistics'
+  profile_appspec: 'Environmental Sciences, Law & Jurisprudence, Risk Assessment'
+---
+
+{{< include .profile.qmd >}}

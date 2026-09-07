@@ -1,0 +1,15 @@
+{
+  "hash": "d7890712a6c86555aeeaa3eca1342d57",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: 'David Nichols'\nparams:\n  profile_name: 'David Nichols'\n  profile_email: '2750 Prairie Avenue # 2 Evanston, IL 60201'\n  profile_location: 'NA'\n---\n\n---\nparams:\n  profile_name: Neal Fultz\n  profile_email: neal@njnm.co\n  profile_location: Los Angeles, CA\n  profile_linkedin: https://linkedin.com/in/nfultz\n---\n\n\n\n  * NA\n  * [2750 Prairie Avenue \\# 2 Evanston\\, IL 60201](2750 Prairie Avenue \\# 2 Evanston\\, IL 60201) \n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

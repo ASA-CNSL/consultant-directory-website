@@ -1,0 +1,17 @@
+{
+  "hash": "a48f7dfbff3af63aa9c62058b626edc5",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: 'Corina Erika Navarrete Macedo'\nparams:\n  profile_name: 'Corina Erika Navarrete Macedo'\n  profile_email: 'corina.navarrete@pucp.edu.pe'\n  profile_location: 'Lima/Lima/Perú'\n  profile_website: 'https://orcid.org/0000-0003-4187-9245'\n  profile_degree: 'MS / MA, Applied statistics'\n  profile_context: 'Academic / research, Industry, Government, Non-profit'\n  profile_language: 'English, Spanish'\n  profile_expertise: 'Decision Theory, Machine Learning, Probability, Time Series & Forecasting'\n  profile_appspec: 'Agriculture, Computer Sciences, Geology & Earth Sciences'\n---\n\n---\nparams:\n  profile_name: Neal Fultz\n  profile_email: neal@njnm.co\n  profile_location: Los Angeles, CA\n  profile_website: https://linkedin.com/in/nfultz\n  profile_degree: PhD, UCLA\n  profile_context: Academic / Industry\n  profile_language: English\n  profile_expertise: Default\n  profile_appspec: Default \n---\n\n\n\n  * Location: Lima/Lima/Perú\n  * Contact: [corina\\.navarrete@pucp\\.edu\\.pe](corina\\.navarrete@pucp\\.edu\\.pe) \n  * Website: [https://orcid.org/0000-0003-4187-9245](https://orcid.org/0000-0003-4187-9245)\n  * Degree: MS / MA, Applied statistics\n  * Typical Consulting Context: Academic / research, Industry, Government, Non-profit\n  * Language(s): English, Spanish\n  * Expertise (top 3): Decision Theory, Machine Learning, Probability, Time Series & Forecasting\n  * Application specializations (top 3): Agriculture, Computer Sciences, Geology & Earth Sciences \n  \n\n",
+    "supporting": [
+      "corina.navarrete_at_pucp.edu.pe_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

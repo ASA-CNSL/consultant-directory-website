@@ -1,0 +1,15 @@
+---
+title: 'Corina Erika Navarrete Macedo'
+params:
+  profile_name: 'Corina Erika Navarrete Macedo'
+  profile_email: 'corina.navarrete@pucp.edu.pe'
+  profile_location: 'Lima/Lima/Perú'
+  profile_website: 'https://orcid.org/0000-0003-4187-9245'
+  profile_degree: 'MS / MA, Applied statistics'
+  profile_context: 'Academic / research, Industry, Government, Non-profit'
+  profile_language: 'English, Spanish'
+  profile_expertise: 'Decision Theory, Machine Learning, Probability, Time Series & Forecasting'
+  profile_appspec: 'Agriculture, Computer Sciences, Geology & Earth Sciences'
+---
+
+{{< include .profile.qmd >}}

@@ -1,0 +1,15 @@
+---
+title: 'Ali Arab'
+params:
+  profile_name: 'Ali Arab'
+  profile_email: 'aa577@georgetown.edu'
+  profile_location: '(not specified)'
+  profile_website: 'aliarab.com'
+  profile_degree: 'PhD / ScD, Statistics'
+  profile_context: 'Academic / research, Industry, Government, Legal / expert witness, Non-profit'
+  profile_language: 'English, Persian'
+  profile_expertise: 'Expert Witness, Spatial Statistics, Time Series & Forecasting'
+  profile_appspec: 'Environmental Sciences, Finance and Banking, Fisheries, Wildlife and Forestry'
+---
+
+{{< include .profile.qmd >}}

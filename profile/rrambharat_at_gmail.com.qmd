@@ -1,0 +1,15 @@
+---
+title: 'B. Ricky Rambharat'
+params:
+  profile_name: 'B. Ricky Rambharat'
+  profile_email: 'rrambharat@gmail.com'
+  profile_location: 'Baltimore/Washington Region'
+  profile_website: 'https://sites.google.com/view/drrambharat/'
+  profile_degree: 'PhD / ScD, Statistics'
+  profile_context: 'Industry, Government, Legal / expert witness, Non-profit'
+  profile_language: 'English'
+  profile_expertise: 'Model Selection, Sampling & Sample Design, Time Series & Forecasting'
+  profile_appspec: 'Business Management, Finance and Banking, Fisheries, Wildlife and Forestry'
+---
+
+{{< include .profile.qmd >}}

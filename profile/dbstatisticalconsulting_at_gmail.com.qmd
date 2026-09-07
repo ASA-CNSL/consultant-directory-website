@@ -1,0 +1,15 @@
+---
+title: 'David Guy'
+params:
+  profile_name: 'David Guy'
+  profile_email: 'dbstatisticalconsulting@gmail.com'
+  profile_location: 'Vero Beachn FL'
+  profile_website: 'https://www.databridgestatisticalconsultinginc.com/'
+  profile_degree: 'PhD / ScD, Applied Statistics'
+  profile_context: 'Industry'
+  profile_language: 'English, French'
+  profile_expertise: 'Bayesian Methods, Data Management, Graphics, High-Dimensional Data Analysis, Machine Learning, Market Research, Model Selection, Non Parametric Statistics, Operations Research, Probability, Quality Management, 6-Sigma, Risk Assessment & Analysis, Statistical Process Control, Statistical Software Design, Statistical Training, Systems Analysis & Programming, Time Series & Forecasting'
+  profile_appspec: 'Economics, Engineering, Finance and Banking, Health & Medical Research, Human Resources, Marketing & Advertising, Quality & Process Improvement'
+---
+
+{{< include .profile.qmd >}}

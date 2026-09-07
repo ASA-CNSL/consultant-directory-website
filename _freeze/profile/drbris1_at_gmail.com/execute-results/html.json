@@ -1,0 +1,17 @@
+{
+  "hash": "e7a6a23c2c3e5c0667e5fe191411b4cb",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: 'David R Bristol'\nparams:\n  profile_name: 'David R Bristol'\n  profile_email: 'drbris1@gmail.com'\n  profile_location: 'North Carolina USA'\n  profile_website: 'NA'\n  profile_degree: 'PhD / ScD, Statistics'\n  profile_context: 'Industry'\n  profile_language: 'English'\n  profile_expertise: 'Biostatistics, Data Management, Technical Writing & Editing'\n  profile_appspec: 'Clinical Trials, Health & Medical Research, Pharmaceutical Industry'\n---\n\n---\nparams:\n  profile_name: Neal Fultz\n  profile_email: neal@njnm.co\n  profile_location: Los Angeles, CA\n  profile_website: https://linkedin.com/in/nfultz\n  profile_degree: PhD, UCLA\n  profile_context: Academic / Industry\n  profile_language: English\n  profile_expertise: Default\n  profile_appspec: Default \n---\n\n\n\n  * Location: North Carolina USA\n  * Contact: [drbris1@gmail\\.com](drbris1@gmail\\.com) \n  * Website: [NA](NA)\n  * Degree: PhD / ScD, Statistics\n  * Typical Consulting Context: Industry\n  * Language(s): English\n  * Expertise (top 3): Biostatistics, Data Management, Technical Writing & Editing\n  * Application specializations (top 3): Clinical Trials, Health & Medical Research, Pharmaceutical Industry \n  \n\n",
+    "supporting": [
+      "drbris1_at_gmail.com_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

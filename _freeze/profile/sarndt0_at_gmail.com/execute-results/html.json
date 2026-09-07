@@ -1,0 +1,17 @@
+{
+  "hash": "edbd9a6e993ede074c3e22e809342cd1",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: 'Stephan Arndt'\nparams:\n  profile_name: 'Stephan Arndt'\n  profile_email: 'sarndt0@gmail.com'\n  profile_location: '(not specified)'\n  profile_website: 'NA'\n  profile_degree: 'PhD / ScD, Psychology'\n  profile_context: 'Academic / research, Industry, Non-profit'\n  profile_language: 'English'\n  profile_expertise: 'Biostatistics, Non Parametric Statistics, Technical Writing & Editing'\n  profile_appspec: 'Biological Sciences, Clinical Trials'\n---\n\n---\nparams:\n  profile_name: Neal Fultz\n  profile_email: neal@njnm.co\n  profile_location: Los Angeles, CA\n  profile_website: https://linkedin.com/in/nfultz\n  profile_degree: PhD, UCLA\n  profile_context: Academic / Industry\n  profile_language: English\n  profile_expertise: Default\n  profile_appspec: Default \n---\n\n\n\n  * Location: \\(not specified\\)\n  * Contact: [sarndt0@gmail\\.com](sarndt0@gmail\\.com) \n  * Website: [NA](NA)\n  * Degree: PhD / ScD, Psychology\n  * Typical Consulting Context: Academic / research, Industry, Non-profit\n  * Language(s): English\n  * Expertise (top 3): Biostatistics, Non Parametric Statistics, Technical Writing & Editing\n  * Application specializations (top 3): Biological Sciences, Clinical Trials \n  \n\n",
+    "supporting": [
+      "sarndt0_at_gmail.com_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

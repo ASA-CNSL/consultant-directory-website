@@ -1,0 +1,17 @@
+{
+  "hash": "8ccbbe242be8d518480a776f60363091",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: 'Ryan A. Peterson'\nparams:\n  profile_name: 'Ryan A. Peterson'\n  profile_email: 'ryan-peterson@uiowa.edu'\n  profile_location: 'Iowa'\n  profile_website: 'https://petersonr.github.io/'\n  profile_degree: 'PhD / ScD, Biostatistics'\n  profile_context: 'Academic / research'\n  profile_language: 'English'\n  profile_expertise: 'Biostatistics, Model Selection, Statistical Software - R'\n  profile_appspec: 'Epidemiology, Health & Medical Research, Public Health'\n---\n\n---\nparams:\n  profile_name: Neal Fultz\n  profile_email: neal@njnm.co\n  profile_location: Los Angeles, CA\n  profile_website: https://linkedin.com/in/nfultz\n  profile_degree: PhD, UCLA\n  profile_context: Academic / Industry\n  profile_language: English\n  profile_expertise: Default\n  profile_appspec: Default \n---\n\n\n\n  * Location: Iowa\n  * Contact: [ryan\\-peterson@uiowa\\.edu](ryan\\-peterson@uiowa\\.edu) \n  * Website: [https://petersonr.github.io/](https://petersonr.github.io/)\n  * Degree: PhD / ScD, Biostatistics\n  * Typical Consulting Context: Academic / research\n  * Language(s): English\n  * Expertise (top 3): Biostatistics, Model Selection, Statistical Software - R\n  * Application specializations (top 3): Epidemiology, Health & Medical Research, Public Health \n  \n\n",
+    "supporting": [
+      "ryan-peterson_at_uiowa.edu_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

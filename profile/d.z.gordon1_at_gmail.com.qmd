@@ -1,0 +1,15 @@
+---
+title: 'Daniel Gordon'
+params:
+  profile_name: 'Daniel Gordon'
+  profile_email: 'd.z.gordon1@gmail.com'
+  profile_location: '(not specified)'
+  profile_website: 'NA'
+  profile_degree: 'NA, (field not specified)'
+  profile_context: 'Industry'
+  profile_language: 'English'
+  profile_expertise: 'Biostatistics'
+  profile_appspec: 'Clinical Trials, Health & Medical Research'
+---
+
+{{< include .profile.qmd >}}

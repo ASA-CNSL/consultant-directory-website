@@ -1,0 +1,15 @@
+---
+title: 'Maggie Qian'
+params:
+  profile_name: 'Maggie Qian'
+  profile_email: 'maggie@evidenceinthewild.com'
+  profile_location: 'Greater Seattle Metro Area'
+  profile_website: 'https://evidenceinthewild.com/'
+  profile_degree: 'MS / MA, Statistics'
+  profile_context: 'Academic / research, Industry, Non-profit'
+  profile_language: 'English, Mandarin'
+  profile_expertise: 'Bayesian Methods, Biostatistics, Experimental Design'
+  profile_appspec: 'Clinical Trials, Health & Medical Research, Pharmaceutical Industry'
+---
+
+{{< include .profile.qmd >}}

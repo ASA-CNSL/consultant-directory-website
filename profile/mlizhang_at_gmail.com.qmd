@@ -1,0 +1,15 @@
+---
+title: 'Li Zhang'
+params:
+  profile_name: 'Li Zhang'
+  profile_email: 'mlizhang@gmail.com'
+  profile_location: 'Bay Area, California'
+  profile_website: 'https://profiles.ucsf.edu/li.zhang'
+  profile_degree: 'PhD / ScD, Statistics'
+  profile_context: 'Academic / research, Industry, Government, Non-profit'
+  profile_language: 'English, Mandarin'
+  profile_expertise: 'Biostatistics, Experimental Design, Graphics, High-Dimensional Data Analysis, Machine Learning, Model Selection, Statistical Training'
+  profile_appspec: 'Biological Sciences, Clinical Trials, Epidemiology, Public Health'
+---
+
+{{< include .profile.qmd >}}

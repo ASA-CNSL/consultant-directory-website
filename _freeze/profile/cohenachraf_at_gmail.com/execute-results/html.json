@@ -1,0 +1,17 @@
+{
+  "hash": "734305586bc3d204cdcf676901d03420",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: 'Achraf Cohen'\nparams:\n  profile_name: 'Achraf Cohen'\n  profile_email: 'cohenachraf@gmail.com'\n  profile_location: '(not specified)'\n  profile_website: 'NA'\n  profile_degree: 'PhD / ScD, Statistics and Applied Mathematics'\n  profile_context: 'Academic / research, Industry, Non-profit'\n  profile_language: 'English, French'\n  profile_expertise: 'Biostatistics, Data Collection Procedures, Data Management, Experimental Design, Machine Learning, Statistical Process Control, Statistical Software - R, Statistical Training, Technical Writing & Editing, Time Series & Forecasting'\n  profile_appspec: 'Clinical Trials, Education & Teaching, Engineering, Public Health, Quality & Process Improvement, Technical Writing & Editing'\n---\n\n---\nparams:\n  profile_name: Neal Fultz\n  profile_email: neal@njnm.co\n  profile_location: Los Angeles, CA\n  profile_website: https://linkedin.com/in/nfultz\n  profile_degree: PhD, UCLA\n  profile_context: Academic / Industry\n  profile_language: English\n  profile_expertise: Default\n  profile_appspec: Default \n---\n\n\n\n  * Location: \\(not specified\\)\n  * Contact: [cohenachraf@gmail\\.com](cohenachraf@gmail\\.com) \n  * Website: [NA](NA)\n  * Degree: PhD / ScD, Statistics and Applied Mathematics\n  * Typical Consulting Context: Academic / research, Industry, Non-profit\n  * Language(s): English, French\n  * Expertise (top 3): Biostatistics, Data Collection Procedures, Data Management, Experimental Design, Machine Learning, Statistical Process Control, Statistical Software - R, Statistical Training, Technical Writing & Editing, Time Series & Forecasting\n  * Application specializations (top 3): Clinical Trials, Education & Teaching, Engineering, Public Health, Quality & Process Improvement, Technical Writing & Editing \n  \n\n",
+    "supporting": [
+      "cohenachraf_at_gmail.com_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

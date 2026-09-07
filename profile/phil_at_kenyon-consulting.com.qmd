@@ -1,0 +1,15 @@
+---
+title: 'Phil Cross'
+params:
+  profile_name: 'Phil Cross'
+  profile_email: 'phil@kenyon-consulting.com'
+  profile_location: 'Washington DC'
+  profile_website: 'kenyon-consulting.com'
+  profile_degree: 'PhD / ScD, Economics'
+  profile_context: 'Legal / expert witness'
+  profile_language: 'English'
+  profile_expertise: 'Experimental Design, Expert Witness, Survey Design & Analysis'
+  profile_appspec: 'Economics, Finance and Banking, Law & Jurisprudence'
+---
+
+{{< include .profile.qmd >}}

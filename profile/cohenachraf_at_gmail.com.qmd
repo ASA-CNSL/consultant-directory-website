@@ -1,0 +1,15 @@
+---
+title: 'Achraf Cohen'
+params:
+  profile_name: 'Achraf Cohen'
+  profile_email: 'cohenachraf@gmail.com'
+  profile_location: '(not specified)'
+  profile_website: 'NA'
+  profile_degree: 'PhD / ScD, Statistics and Applied Mathematics'
+  profile_context: 'Academic / research, Industry, Non-profit'
+  profile_language: 'English, French'
+  profile_expertise: 'Biostatistics, Data Collection Procedures, Data Management, Experimental Design, Machine Learning, Statistical Process Control, Statistical Software - R, Statistical Training, Technical Writing & Editing, Time Series & Forecasting'
+  profile_appspec: 'Clinical Trials, Education & Teaching, Engineering, Public Health, Quality & Process Improvement, Technical Writing & Editing'
+---
+
+{{< include .profile.qmd >}}

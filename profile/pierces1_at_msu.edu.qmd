@@ -1,0 +1,15 @@
+---
+title: 'Steven J. Pierce'
+params:
+  profile_name: 'Steven J. Pierce'
+  profile_email: 'pierces1@msu.edu'
+  profile_location: 'Michigan'
+  profile_website: 'https://sjpierce.github.io/about.html'
+  profile_degree: 'PhD / ScD, Ecological-Community Psychology'
+  profile_context: 'Academic / research, Industry, Government, Non-profit'
+  profile_language: 'English'
+  profile_expertise: 'Biostatistics, Survey Design & Analysis, Longitudinal Models, Measurement/Psychometrics, Latent Variable Models/Structural Equation Models, Program Evaluation, Reproducible Research'
+  profile_appspec: 'Education & Teaching, Health & Medical Research, Social Science, Psychology'
+---
+
+{{< include .profile.qmd >}}

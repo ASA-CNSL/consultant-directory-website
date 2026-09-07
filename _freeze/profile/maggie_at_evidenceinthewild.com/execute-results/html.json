@@ -1,0 +1,17 @@
+{
+  "hash": "7e60a61a21aed01282653ade9ef8b6f2",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: 'Maggie Qian'\nparams:\n  profile_name: 'Maggie Qian'\n  profile_email: 'maggie@evidenceinthewild.com'\n  profile_location: 'Greater Seattle Metro Area'\n  profile_website: 'https://evidenceinthewild.com/'\n  profile_degree: 'MS / MA, Statistics'\n  profile_context: 'Academic / research, Industry, Non-profit'\n  profile_language: 'English, Mandarin'\n  profile_expertise: 'Bayesian Methods, Biostatistics, Experimental Design'\n  profile_appspec: 'Clinical Trials, Health & Medical Research, Pharmaceutical Industry'\n---\n\n---\nparams:\n  profile_name: Neal Fultz\n  profile_email: neal@njnm.co\n  profile_location: Los Angeles, CA\n  profile_website: https://linkedin.com/in/nfultz\n  profile_degree: PhD, UCLA\n  profile_context: Academic / Industry\n  profile_language: English\n  profile_expertise: Default\n  profile_appspec: Default \n---\n\n\n\n  * Location: Greater Seattle Metro Area\n  * Contact: [maggie@evidenceinthewild\\.com](maggie@evidenceinthewild\\.com) \n  * Website: [https://evidenceinthewild.com/](https://evidenceinthewild.com/)\n  * Degree: MS / MA, Statistics\n  * Typical Consulting Context: Academic / research, Industry, Non-profit\n  * Language(s): English, Mandarin\n  * Expertise (top 3): Bayesian Methods, Biostatistics, Experimental Design\n  * Application specializations (top 3): Clinical Trials, Health & Medical Research, Pharmaceutical Industry \n  \n\n",
+    "supporting": [
+      "maggie_at_evidenceinthewild.com_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -1,0 +1,15 @@
+---
+title: 'Glen Wright Colopy'
+params:
+  profile_name: 'Glen Wright Colopy'
+  profile_email: 'glen@polarisdatalabs.com'
+  profile_location: 'Research Triangle Park, North Carolina. Available to travel nationally or internationally with sufficient notice.'
+  profile_website: 'polarisdatalabs.com'
+  profile_degree: 'PhD / ScD, Biomedical Machine Learning'
+  profile_context: 'Academic / research, Industry, Non-profit'
+  profile_language: 'English, German'
+  profile_expertise: 'Bayesian Methods, Machine Learning, Statistical Training'
+  profile_appspec: 'Biological Sciences, Clinical Trials, Pharmaceutical Industry'
+---
+
+{{< include .profile.qmd >}}
