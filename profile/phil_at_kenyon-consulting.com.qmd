@@ -4,7 +4,7 @@ params:
   profile_name: 'Phil Cross'
   profile_email: 'phil@kenyon-consulting.com'
   profile_location: 'Washington DC'
-  profile_website: 'kenyon-consulting.com'
+  profile_website: 'https://kenyon-consulting.com'
   profile_degree: 'PhD / ScD, Economics'
   profile_context: 'Legal / expert witness'
   profile_language: 'English'

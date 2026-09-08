@@ -4,7 +4,7 @@ params:
   profile_name: 'Cara Joyce'
   profile_email: 'carajoycebiostats@gmail.com'
   profile_location: '(not specified)'
-  profile_website: 'NA'
+  profile_website: 'https://NA'
   profile_degree: 'PhD / ScD, Biostatistics'
   profile_context: 'Academic / research, Industry'
   profile_language: 'NA'

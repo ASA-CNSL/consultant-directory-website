@@ -4,7 +4,7 @@ params:
   profile_name: 'Shankar Viswanathan'
   profile_email: 'svhealthanalytics@gmail.com'
   profile_location: 'Springfield/Worcester, Massachusetts'
-  profile_website: 'NA'
+  profile_website: 'https://NA'
   profile_degree: 'DrPH, MSc, Biostatistics'
   profile_context: 'Academic / research, Industry, Government'
   profile_language: 'English'

@@ -4,7 +4,7 @@ params:
   profile_name: 'Ali Arab'
   profile_email: 'aa577@georgetown.edu'
   profile_location: '(not specified)'
-  profile_website: 'aliarab.com'
+  profile_website: 'https://aliarab.com'
   profile_degree: 'PhD / ScD, Statistics'
   profile_context: 'Academic / research, Industry, Government, Legal / expert witness, Non-profit'
   profile_language: 'English, Persian'

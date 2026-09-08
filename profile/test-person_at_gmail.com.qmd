@@ -4,7 +4,7 @@ params:
   profile_name: 'Test Person'
   profile_email: 'test-person@gmail.com'
   profile_location: '(not specified)'
-  profile_website: 'NA'
+  profile_website: 'https://NA'
   profile_degree: 'NA, (field not specified)'
   profile_context: 'NA'
   profile_language: 'NA'

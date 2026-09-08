@@ -4,7 +4,7 @@ params:
   profile_name: 'Alexander Casendino'
   profile_email: 'acasendino@helios-data.io'
   profile_location: 'Washington, DC'
-  profile_website: 'helios-data.io'
+  profile_website: 'https://helios-data.io'
   profile_degree: 'MS / MA, Public Policy'
   profile_context: 'Industry, Government, Non-profit'
   profile_language: 'English'

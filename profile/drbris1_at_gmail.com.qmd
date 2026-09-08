@@ -4,7 +4,7 @@ params:
   profile_name: 'David R Bristol'
   profile_email: 'drbris1@gmail.com'
   profile_location: 'North Carolina USA'
-  profile_website: 'NA'
+  profile_website: 'https://NA'
   profile_degree: 'PhD / ScD, Statistics'
   profile_context: 'Industry'
   profile_language: 'English'

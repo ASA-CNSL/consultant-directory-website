@@ -3,14 +3,8 @@ title: "ASA Directory of Statistical Consultants"
 ---
 
 
-::: callout-warning
-# Under construction
-
-This webpage is currently under review. If you'd like to update your listing, please [fill out this form](https://docs.google.com/forms/d/e/1FAIpQLSdU__AWWWNNXsIw3cOwajCUwcNuPjK3u0vRXM9_tDnbm1nC0A/viewform?usp=dialog). 
-:::
-
 ::: callout-note
-This list was last updated on `r Sys.Date()`. Please [report an issue](https://github.com/ASA-CNSL/consultant-directory-website/issues/new) if you experience unexpected or broken links.
+This directory was last updated on `r Sys.Date()`. Please [report an issue](https://github.com/ASA-CNSL/consultant-directory-website/issues/new) if you experience unexpected or broken links. Listings can be updated or requested via [this form](https://docs.google.com/forms/d/e/1FAIpQLSdU__AWWWNNXsIw3cOwajCUwcNuPjK3u0vRXM9_tDnbm1nC0A/viewform?usp=dialog). 
 :::
 
 ```{r setup, echo = FALSE, message = FALSE}

@@ -4,7 +4,7 @@ params:
   profile_name: 'Matt Hayat'
   profile_email: 'hayatm@musc.edu'
   profile_location: '(not specified)'
-  profile_website: 'NA'
+  profile_website: 'https://NA'
   profile_degree: 'PhD / ScD, Biostatistics'
   profile_context: 'Academic / research'
   profile_language: 'English'

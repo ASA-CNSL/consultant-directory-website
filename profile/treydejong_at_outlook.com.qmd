@@ -4,7 +4,7 @@ params:
   profile_name: 'Trey L. DeJong'
   profile_email: 'treydejong@outlook.com'
   profile_location: 'Spokane, Washington'
-  profile_website: 'www.ciser.wsu.edu/people/wsu-profile/trey.dejong/'
+  profile_website: 'https://www.ciser.wsu.edu/people/wsu-profile/trey.dejong/'
   profile_degree: 'PhD / ScD, Educational Psychology: Research, Measurement, & Statistics'
   profile_context: 'Academic / research'
   profile_language: 'English'

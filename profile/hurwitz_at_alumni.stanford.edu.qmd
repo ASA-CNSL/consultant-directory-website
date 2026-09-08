@@ -4,7 +4,7 @@ params:
   profile_name: 'Shelley Hurwitz, PhD, MS, MA'
   profile_email: 'hurwitz@alumni.stanford.edu'
   profile_location: '(not specified)'
-  profile_website: 'www.statisticsgoddess.com'
+  profile_website: 'https://www.statisticsgoddess.com'
   profile_degree: 'PhD / ScD, (field not specified)'
   profile_context: 'Academic / research, Non-profit'
   profile_language: 'English'

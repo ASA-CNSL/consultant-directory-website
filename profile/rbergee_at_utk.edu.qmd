@@ -4,7 +4,7 @@ params:
   profile_name: 'Rebecca E. Bergee'
   profile_email: 'rbergee@utk.edu'
   profile_location: '(not specified)'
-  profile_website: 'NA'
+  profile_website: 'https://NA'
   profile_degree: 'PhD / ScD, Applied Mathematics and Statistics'
   profile_context: 'Academic / research'
   profile_language: 'English'
