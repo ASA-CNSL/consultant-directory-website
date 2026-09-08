@@ -4,7 +4,11 @@ title: "ASA Directory of Statistical Consultants"
 
 
 ::: callout-note
-This directory was last updated on `r Sys.Date()`. Please [report an issue](https://github.com/ASA-CNSL/consultant-directory-website/issues/new) if you experience unexpected or broken links. Listings can be updated or requested via [this form](https://docs.google.com/forms/d/e/1FAIpQLSdU__AWWWNNXsIw3cOwajCUwcNuPjK3u0vRXM9_tDnbm1nC0A/viewform?usp=dialog). 
+This directory was last updated on `r Sys.Date()`. 
+
+Please [report an issue](https://github.com/ASA-CNSL/consultant-directory-website/issues/new) if you experience unexpected or broken links. 
+
+Listings can be updated or requested via [this form](https://docs.google.com/forms/d/e/1FAIpQLSdU__AWWWNNXsIw3cOwajCUwcNuPjK3u0vRXM9_tDnbm1nC0A/viewform?usp=dialog). Some entries have been migrated from the previous directory; these appear as [migrated] in the table below. Section members can update their listing via the preceding form.
 :::
 
 ```{r setup, echo = FALSE, message = FALSE}
@@ -175,10 +179,12 @@ listings_to_migrate <- to_migrate %>%
     Name = paste0(FirstName, " ", LastName),
     Expertise = "[migrated]", 
     Specialty = "[migrated]", 
-    Location = state_abb_to_name(State),
-    Links = paste0('<a href="mailto:', membership_Individual_EmailAddress, 
-                   '">email</a>; <a href="', MoreInfo, '">website</a>')
+    Location = state_abb_to_name(State)
     ) %>% 
+  mutate(Links = paste0('<a href="mailto:', membership_Individual_EmailAddress, '">email</a>')) %>% 
+  mutate(MoreInfo = gsub("https://", "", MoreInfo)) %>% 
+  mutate(Links = ifelse(!is.na(MoreInfo), 
+                        paste0(Links, '; <a href="https://', MoreInfo, '">website</a>'), Links)) %>% 
   select(Name:Links)
 
 # Only first three expertise listed 
