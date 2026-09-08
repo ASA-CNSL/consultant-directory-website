@@ -98,7 +98,7 @@ directory_members <- left_join(form_responses, current_members) %>%
 # merge with existing members as of Jan 1 2026
 directory_members <- current_members %>% 
   select(`ASA Member Number`, expiration_date) %>% 
-  right_join(form_responses) %>% 
+  right_join(directory_members) %>% 
   mutate(active = expiration_date < "01/01/2026")
 
 

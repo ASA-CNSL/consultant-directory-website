@@ -1,0 +1,15 @@
+---
+title: 'Dr Arun Peter Chind'
+params:
+  profile_name: 'Dr Arun Peter Chind'
+  profile_email: 'Hseappointeddoctor@gmail.com'
+  profile_location: '(not specified)'
+  profile_website: 'https://uk.linkedin.com/in/dr-arun-chind-8549a2139'
+  profile_degree: 'MS, MPH, Medical statistics, public health practice'
+  profile_context: 'Academic / research, Industry, Government'
+  profile_language: 'English'
+  profile_expertise: 'Biostatistics, Decision Theory, Spatial Statistics, Statistical Training, Technical Writing & Editing'
+  profile_appspec: 'Economics, Epidemiology, Public Health'
+---
+
+{{< include .profile.qmd >}}

@@ -1,0 +1,15 @@
+---
+title: 'Adam Batten MS PSTAT'
+params:
+  profile_name: 'Adam Batten MS PSTAT'
+  profile_email: 'Adam@ABAnalytics.dev'
+  profile_location: 'Seattle, WA, USA'
+  profile_website: 'https://abanalytics.dev'
+  profile_degree: 'MS / MA, Statistics'
+  profile_context: 'Academic / research, Government, Non-profit'
+  profile_language: 'English, Spanish, French'
+  profile_expertise: 'Bayesian Methods, Biostatistics, Causal Inference, Data Collection Procedures, Data Management, Decision Theory, Experimental Design, High-Dimensional Data Analysis, Machine Learning, Model Selection, Non Parametric Statistics, Operations Research, Post-Selection Inference, Sampling & Sample Design, Statistical Software Design, Statistical Training, Survey Design & Analysis, Time Series & Forecasting, Artificial Intelligence'
+  profile_appspec: 'Biological Sciences, Economics, Epidemiology, Ethics, Finance and Banking, Health & Medical Research, Public Health, Technical Writing & Editing, Health Services'
+---
+
+{{< include .profile.qmd >}}

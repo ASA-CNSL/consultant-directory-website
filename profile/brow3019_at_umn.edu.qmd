@@ -1,0 +1,15 @@
+---
+title: 'Jonathan Brown'
+params:
+  profile_name: 'Jonathan Brown'
+  profile_email: 'brow3019@umn.edu'
+  profile_location: 'Twin Cities, Minnesota'
+  profile_website: 'https://survey.umn.edu'
+  profile_degree: 'PhD / ScD, Educational Psychology / Research Methods'
+  profile_context: 'Academic / research, Non-profit, Administrative higher education'
+  profile_language: 'English'
+  profile_expertise: 'Sampling & Sample Design, Statistical Training, Survey Design & Analysis'
+  profile_appspec: 'NA'
+---
+
+{{< include .profile.qmd >}}

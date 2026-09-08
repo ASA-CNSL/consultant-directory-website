@@ -1,0 +1,15 @@
+{
+  "hash": "bde6bc0e4ddcca77251563a423fdf7c7",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: 'Stuart Gansky'\nparams:\n  profile_name: 'Stuart Gansky'\n  profile_email: 'stuart.gansky@ucsf.edu'\n  profile_location: '(not specified)'\n  profile_website: 'https://profiles.ucsf.edu/stuart.gansky'\n  profile_degree: 'DrPH, Biostatistics'\n  profile_context: 'Academic / research, Government, Non-profit'\n  profile_language: 'English'\n  profile_expertise: 'Biostatistics, Machine Learning, Survey Design & Analysis'\n  profile_appspec: 'Clinical Trials, Epidemiology, Health, Dental, and Medical Research'\n---\n\n---\nparams:\n  profile_name: Neal Fultz\n  profile_email: neal@njnm.co\n  profile_location: Los Angeles, CA\n  profile_website: https://linkedin.com/in/nfultz\n  profile_degree: PhD, UCLA\n  profile_context: Academic / Industry\n  profile_language: English\n  profile_expertise: Default\n  profile_appspec: Default \n---\n\n\n\n  * Location: \\(not specified\\)\n  * Contact: [stuart\\.gansky@ucsf\\.edu](stuart\\.gansky@ucsf\\.edu) \n  * Website: [https://profiles.ucsf.edu/stuart.gansky](https://profiles.ucsf.edu/stuart.gansky)\n  * Degree: DrPH, Biostatistics\n  * Typical Consulting Context: Academic / research, Government, Non-profit\n  * Language(s): English\n  * Expertise (top 3): Biostatistics, Machine Learning, Survey Design & Analysis\n  * Application specializations (top 3): Clinical Trials, Epidemiology, Health, Dental, and Medical Research \n  \n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

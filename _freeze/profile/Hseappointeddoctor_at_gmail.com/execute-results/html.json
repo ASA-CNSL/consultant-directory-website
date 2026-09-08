@@ -1,0 +1,15 @@
+{
+  "hash": "2c4778e94f794984cc109370a3268b9b",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: 'Dr Arun Peter Chind'\nparams:\n  profile_name: 'Dr Arun Peter Chind'\n  profile_email: 'Hseappointeddoctor@gmail.com'\n  profile_location: '(not specified)'\n  profile_website: 'https://uk.linkedin.com/in/dr-arun-chind-8549a2139'\n  profile_degree: 'MS, MPH, Medical statistics, public health practice'\n  profile_context: 'Academic / research, Industry, Government'\n  profile_language: 'English'\n  profile_expertise: 'Biostatistics, Decision Theory, Spatial Statistics, Statistical Training, Technical Writing & Editing'\n  profile_appspec: 'Economics, Epidemiology, Public Health'\n---\n\n---\nparams:\n  profile_name: Neal Fultz\n  profile_email: neal@njnm.co\n  profile_location: Los Angeles, CA\n  profile_website: https://linkedin.com/in/nfultz\n  profile_degree: PhD, UCLA\n  profile_context: Academic / Industry\n  profile_language: English\n  profile_expertise: Default\n  profile_appspec: Default \n---\n\n\n\n  * Location: \\(not specified\\)\n  * Contact: [Hseappointeddoctor@gmail\\.com](Hseappointeddoctor@gmail\\.com) \n  * Website: [https://uk.linkedin.com/in/dr-arun-chind-8549a2139](https://uk.linkedin.com/in/dr-arun-chind-8549a2139)\n  * Degree: MS, MPH, Medical statistics, public health practice\n  * Typical Consulting Context: Academic / research, Industry, Government\n  * Language(s): English\n  * Expertise (top 3): Biostatistics, Decision Theory, Spatial Statistics, Statistical Training, Technical Writing & Editing\n  * Application specializations (top 3): Economics, Epidemiology, Public Health \n  \n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

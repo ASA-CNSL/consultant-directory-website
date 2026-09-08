@@ -1,0 +1,15 @@
+{
+  "hash": "3a157fc9f85843341f64e9038a302db4",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: 'Jonathan Brown'\nparams:\n  profile_name: 'Jonathan Brown'\n  profile_email: 'brow3019@umn.edu'\n  profile_location: 'Twin Cities, Minnesota'\n  profile_website: 'https://survey.umn.edu'\n  profile_degree: 'PhD / ScD, Educational Psychology / Research Methods'\n  profile_context: 'Academic / research, Non-profit, Administrative higher education'\n  profile_language: 'English'\n  profile_expertise: 'Sampling & Sample Design, Statistical Training, Survey Design & Analysis'\n  profile_appspec: 'NA'\n---\n\n---\nparams:\n  profile_name: Neal Fultz\n  profile_email: neal@njnm.co\n  profile_location: Los Angeles, CA\n  profile_website: https://linkedin.com/in/nfultz\n  profile_degree: PhD, UCLA\n  profile_context: Academic / Industry\n  profile_language: English\n  profile_expertise: Default\n  profile_appspec: Default \n---\n\n\n\n  * Location: Twin Cities\\, Minnesota\n  * Contact: [brow3019@umn\\.edu](brow3019@umn\\.edu) \n  * Website: [https://survey.umn.edu](https://survey.umn.edu)\n  * Degree: PhD / ScD, Educational Psychology / Research Methods\n  * Typical Consulting Context: Academic / research, Non-profit, Administrative higher education\n  * Language(s): English\n  * Expertise (top 3): Sampling & Sample Design, Statistical Training, Survey Design & Analysis\n  * Application specializations (top 3): NA \n  \n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

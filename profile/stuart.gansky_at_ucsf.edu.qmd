@@ -1,0 +1,15 @@
+---
+title: 'Stuart Gansky'
+params:
+  profile_name: 'Stuart Gansky'
+  profile_email: 'stuart.gansky@ucsf.edu'
+  profile_location: '(not specified)'
+  profile_website: 'https://profiles.ucsf.edu/stuart.gansky'
+  profile_degree: 'DrPH, Biostatistics'
+  profile_context: 'Academic / research, Government, Non-profit'
+  profile_language: 'English'
+  profile_expertise: 'Biostatistics, Machine Learning, Survey Design & Analysis'
+  profile_appspec: 'Clinical Trials, Epidemiology, Health, Dental, and Medical Research'
+---
+
+{{< include .profile.qmd >}}
