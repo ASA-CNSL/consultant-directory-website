@@ -1,0 +1,15 @@
+{
+  "hash": "4171385bf9650ac5b54f32faa4cbbe1d",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: 'Joel P. Wiesen, Ph.D.'\nparams:\n  profile_name: 'Joel P. Wiesen, Ph.D.'\n  profile_email: 'jwiesen@appliedpersonnelresearch.com'\n  profile_location: 'New York City and surrounds'\n  profile_website: 'https://appliedpersonnelresearch.com'\n  profile_degree: 'PhD / ScD, Psychology'\n  profile_context: 'Government, Legal / expert witness'\n  profile_language: 'English'\n  profile_expertise: 'Adverse impact analyses, test validation for employee selection tests'\n  profile_appspec: 'Human Resources'\n---\n\n---\nparams:\n  profile_name: Neal Fultz\n  profile_email: neal@njnm.co\n  profile_location: Los Angeles, CA\n  profile_website: https://linkedin.com/in/nfultz\n  profile_degree: PhD, UCLA\n  profile_context: Academic / Industry\n  profile_language: English\n  profile_expertise: Default\n  profile_appspec: Default \n---\n\n\n\n  * Location: New York City and surrounds\n  * Contact: [jwiesen@appliedpersonnelresearch\\.com](jwiesen@appliedpersonnelresearch\\.com) \n  * Website: [https://appliedpersonnelresearch.com](https://appliedpersonnelresearch.com)\n  * Degree: PhD / ScD, Psychology\n  * Typical Consulting Context: Government, Legal / expert witness\n  * Language(s): English\n  * Expertise (top 3): Adverse impact analyses, test validation for employee selection tests\n  * Application specializations (top 3): Human Resources \n  \n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

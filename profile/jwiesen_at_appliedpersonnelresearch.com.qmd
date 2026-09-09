@@ -1,0 +1,15 @@
+---
+title: 'Joel P. Wiesen, Ph.D.'
+params:
+  profile_name: 'Joel P. Wiesen, Ph.D.'
+  profile_email: 'jwiesen@appliedpersonnelresearch.com'
+  profile_location: 'New York City and surrounds'
+  profile_website: 'https://appliedpersonnelresearch.com'
+  profile_degree: 'PhD / ScD, Psychology'
+  profile_context: 'Government, Legal / expert witness'
+  profile_language: 'English'
+  profile_expertise: 'Adverse impact analyses, test validation for employee selection tests'
+  profile_appspec: 'Human Resources'
+---
+
+{{< include .profile.qmd >}}

@@ -154,7 +154,7 @@ old_listings$`ASA Member Number` <- old_listings$ASAID
 
 to_migrate <- current_members %>% 
   inner_join(old_listings) %>% 
-  filter(expiration_date > "2025-12-31")
+  filter(expiration_date > "2025-12-31") 
 
 state_abb_to_name <- function(x) {
   y <- rep(NA_character_, length(x))
@@ -171,6 +171,10 @@ state_abb_to_name <- function(x) {
   y
 }
 
+# Take out listings for migrations that have also filled out the form
+to_migrate <- to_migrate %>% 
+  filter(!(`ASA Member Number` %in% directory_members$`ASA Member Number`))
+
 listings_to_migrate <- to_migrate %>% 
   group_by(`ASA Member Number`) %>% 
   slice(1) %>% 
@@ -186,6 +190,8 @@ listings_to_migrate <- to_migrate %>%
   mutate(Links = ifelse(!is.na(MoreInfo), 
                         paste0(Links, '; <a href="https://', MoreInfo, '">website</a>'), Links)) %>% 
   select(Name:Links)
+
+
 
 # Only first three expertise listed 
 listings <- bind_rows(arrange(listings, Name), listings_to_migrate) 
