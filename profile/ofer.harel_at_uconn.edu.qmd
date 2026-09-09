@@ -1,7 +1,7 @@
 ---
-title: 'Ofer'
+title: 'Ofer Harel'
 params:
-  profile_name: 'Ofer'
+  profile_name: 'Ofer Harel'
   profile_email: 'ofer.harel@uconn.edu'
   profile_location: 'CT, NY, MA'
   profile_website: 'https://ofer-harel.uconn.edu/'

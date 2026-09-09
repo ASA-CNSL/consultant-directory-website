@@ -1,0 +1,15 @@
+{
+  "hash": "fba1b349b6c618679fb6f9bc69ae6db4",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: 'Dr. Vonthein, Reinhard'\nparams:\n  profile_name: 'Dr. Vonthein, Reinhard'\n  profile_email: 'Reinhard.Vonthein@Uni-Luebeck.DE'\n  profile_location: 'Germany'\n  profile_website: 'https://www.imbs.uni-luebeck.de/en/staff/reinhard-vonthein'\n  profile_degree: 'PhD / ScD, Statistics'\n  profile_context: 'Academic / research'\n  profile_language: 'English, German'\n  profile_expertise: 'Bayesian Methods, Biostatistics, Technical Writing & Editing'\n  profile_appspec: 'Clinical Trials, Epidemiology, Health & Medical Research'\n---\n\n---\nparams:\n  profile_name: Neal Fultz\n  profile_email: neal@njnm.co\n  profile_location: Los Angeles, CA\n  profile_website: https://linkedin.com/in/nfultz\n  profile_degree: PhD, UCLA\n  profile_context: Academic / Industry\n  profile_language: English\n  profile_expertise: Default\n  profile_appspec: Default \n---\n\n\n\n  * Location: Germany\n  * Contact: [Reinhard\\.Vonthein@Uni\\-Luebeck\\.DE](Reinhard\\.Vonthein@Uni\\-Luebeck\\.DE) \n  * Website: [https://www.imbs.uni-luebeck.de/en/staff/reinhard-vonthein](https://www.imbs.uni-luebeck.de/en/staff/reinhard-vonthein)\n  * Degree: PhD / ScD, Statistics\n  * Typical Consulting Context: Academic / research\n  * Language(s): English, German\n  * Expertise (top 3): Bayesian Methods, Biostatistics, Technical Writing & Editing\n  * Application specializations (top 3): Clinical Trials, Epidemiology, Health & Medical Research \n  \n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

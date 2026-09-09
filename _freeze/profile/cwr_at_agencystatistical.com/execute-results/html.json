@@ -1,0 +1,15 @@
+{
+  "hash": "915f8f908817b070458899f936991438",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: 'Christopher W. Ryan'\nparams:\n  profile_name: 'Christopher W. Ryan'\n  profile_email: 'cwr@agencystatistical.com'\n  profile_location: '(not specified)'\n  profile_website: 'https://www.agencystatistical.com'\n  profile_degree: 'MD, MS, MSPH, MS in statistics; MS in public health; MD in medicine'\n  profile_context: 'Academic / research, Government, Non-profit, Public service agencies: EMS, Fire, Public Health, Hospitals, Medical Education'\n  profile_language: 'English'\n  profile_expertise: 'Data Collection Procedures, Data Management, Graphics, Spatial Statistics, Statistical Training'\n  profile_appspec: 'Epidemiology, Health & Medical Research, Public Health'\n---\n\n---\nparams:\n  profile_name: Neal Fultz\n  profile_email: neal@njnm.co\n  profile_location: Los Angeles, CA\n  profile_website: https://linkedin.com/in/nfultz\n  profile_degree: PhD, UCLA\n  profile_context: Academic / Industry\n  profile_language: English\n  profile_expertise: Default\n  profile_appspec: Default \n---\n\n\n\n  * Location: \\(not specified\\)\n  * Contact: [cwr@agencystatistical\\.com](cwr@agencystatistical\\.com) \n  * Website: [https://www.agencystatistical.com](https://www.agencystatistical.com)\n  * Degree: MD, MS, MSPH, MS in statistics; MS in public health; MD in medicine\n  * Typical Consulting Context: Academic / research, Government, Non-profit, Public service agencies: EMS, Fire, Public Health, Hospitals, Medical Education\n  * Language(s): English\n  * Expertise (top 3): Data Collection Procedures, Data Management, Graphics, Spatial Statistics, Statistical Training\n  * Application specializations (top 3): Epidemiology, Health & Medical Research, Public Health \n  \n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

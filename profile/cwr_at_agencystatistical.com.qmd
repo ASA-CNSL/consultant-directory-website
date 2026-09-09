@@ -1,0 +1,15 @@
+---
+title: 'Christopher W. Ryan'
+params:
+  profile_name: 'Christopher W. Ryan'
+  profile_email: 'cwr@agencystatistical.com'
+  profile_location: '(not specified)'
+  profile_website: 'https://www.agencystatistical.com'
+  profile_degree: 'MD, MS, MSPH, MS in statistics; MS in public health; MD in medicine'
+  profile_context: 'Academic / research, Government, Non-profit, Public service agencies: EMS, Fire, Public Health, Hospitals, Medical Education'
+  profile_language: 'English'
+  profile_expertise: 'Data Collection Procedures, Data Management, Graphics, Spatial Statistics, Statistical Training'
+  profile_appspec: 'Epidemiology, Health & Medical Research, Public Health'
+---
+
+{{< include .profile.qmd >}}

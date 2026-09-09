@@ -1,0 +1,15 @@
+---
+title: 'Dr. Vonthein, Reinhard'
+params:
+  profile_name: 'Dr. Vonthein, Reinhard'
+  profile_email: 'Reinhard.Vonthein@Uni-Luebeck.DE'
+  profile_location: 'Germany'
+  profile_website: 'https://www.imbs.uni-luebeck.de/en/staff/reinhard-vonthein'
+  profile_degree: 'PhD / ScD, Statistics'
+  profile_context: 'Academic / research'
+  profile_language: 'English, German'
+  profile_expertise: 'Bayesian Methods, Biostatistics, Technical Writing & Editing'
+  profile_appspec: 'Clinical Trials, Epidemiology, Health & Medical Research'
+---
+
+{{< include .profile.qmd >}}
