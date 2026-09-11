@@ -1,0 +1,17 @@
+{
+  "hash": "692b1a8582b2f711fa9e7f6a7dac17a3",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: 'Meng-Chen Hsieh'\nparams:\n  profile_name: 'Meng-Chen Hsieh'\n  profile_email: 'mengchen.hsieh@gmail.com'\n  profile_location: 'New York/New York/Northeast'\n  profile_website: 'not specified'\n  profile_degree: 'PhD / ScD, Statistics'\n  profile_context: 'Academic / research, Industry, Non-profit'\n  profile_language: 'English, Mandarin'\n  profile_expertise: 'High-Dimensional Data Analysis, Machine Learning, Model Selection, Probability, Risk Assessment & Analysis, Time Series & Forecasting'\n  profile_appspec: 'Accounting & Actuarial Sciences, Business Management, Economics, Finance and Banking, Marketing & Advertising, Risk Assessment'\n---\n\n---\nparams:\n  profile_name: Neal Fultz\n  profile_email: neal@njnm.co\n  profile_location: Los Angeles, CA\n  profile_website: https://linkedin.com/in/nfultz\n  profile_degree: PhD, UCLA\n  profile_context: Academic / Industry\n  profile_language: English\n  profile_expertise: Default\n  profile_appspec: Default \n---\n\n\n\n  * Location: New York/New York/Northeast\n  * Contact: [mengchen\\.hsieh@gmail\\.com](mengchen\\.hsieh@gmail\\.com) \n  * Website: [not specified](not specified)\n  * Degree: PhD / ScD, Statistics\n  * Typical Consulting Context: Academic / research, Industry, Non-profit\n  * Language(s): English, Mandarin\n  * Expertise (top 3): High-Dimensional Data Analysis, Machine Learning, Model Selection, Probability, Risk Assessment & Analysis, Time Series & Forecasting\n  * Application specializations (top 3): Accounting & Actuarial Sciences, Business Management, Economics, Finance and Banking, Marketing & Advertising, Risk Assessment \n  \n\n",
+    "supporting": [
+      "mengchen.hsieh_at_gmail.com_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

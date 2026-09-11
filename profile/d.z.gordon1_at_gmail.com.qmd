@@ -4,7 +4,7 @@ params:
   profile_name: 'Daniel Gordon'
   profile_email: 'd.z.gordon1@gmail.com'
   profile_location: '(not specified)'
-  profile_website: 'https://NA'
+  profile_website: 'not specified'
   profile_degree: 'NA, (field not specified)'
   profile_context: 'Industry'
   profile_language: 'English'

@@ -4,7 +4,7 @@ params:
   profile_name: 'James Clothier'
   profile_email: 'jdclothi@ncsu.edu'
   profile_location: 'NC Research Triangle Region'
-  profile_website: 'https://NA'
+  profile_website: 'not specified'
   profile_degree: 'PhD / ScD, Statistics'
   profile_context: 'Academic / research'
   profile_language: 'English'

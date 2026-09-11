@@ -1,0 +1,15 @@
+---
+title: 'Alun Bedding'
+params:
+  profile_name: 'Alun Bedding'
+  profile_email: 'alun@alunbeddingcoaching.com'
+  profile_location: '(not specified)'
+  profile_website: 'https://www.alunbeddingcoaching.com/'
+  profile_degree: 'PhD / ScD, Applied Statistics'
+  profile_context: 'Industry'
+  profile_language: 'English'
+  profile_expertise: 'Bayesian Methods, Biostatistics, Executive and team coaching, leadership consulting'
+  profile_appspec: 'Business Management, Clinical Trials, Communications'
+---
+
+{{< include .profile.qmd >}}

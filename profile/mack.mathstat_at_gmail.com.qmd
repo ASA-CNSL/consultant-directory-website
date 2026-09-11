@@ -4,7 +4,7 @@ params:
   profile_name: 'Andrea Mack Reneau'
   profile_email: 'mack.mathstat@gmail.com'
   profile_location: '(not specified)'
-  profile_website: 'https://NA'
+  profile_website: 'not specified'
   profile_degree: 'MS / MA, Statistics'
   profile_context: 'Academic / research, Industry, Government'
   profile_language: 'Spanish'

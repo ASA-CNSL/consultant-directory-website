@@ -4,7 +4,7 @@ params:
   profile_name: 'Achraf Cohen'
   profile_email: 'cohenachraf@gmail.com'
   profile_location: '(not specified)'
-  profile_website: 'https://NA'
+  profile_website: 'not specified'
   profile_degree: 'PhD / ScD, Statistics and Applied Mathematics'
   profile_context: 'Academic / research, Industry, Non-profit'
   profile_language: 'English, French'

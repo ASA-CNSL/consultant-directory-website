@@ -1,0 +1,17 @@
+{
+  "hash": "d114f1ff349fd8eda113ff2afad0a8d1",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: 'Julia Soulakova'\nparams:\n  profile_name: 'Julia Soulakova'\n  profile_email: 'julia.soulakova@ucf.edu'\n  profile_location: 'Orlando, Florida'\n  profile_website: 'not specified'\n  profile_degree: 'PhD / ScD, Statistics'\n  profile_context: 'Academic / research, Industry, Government, Non-profit'\n  profile_language: 'English, Russian'\n  profile_expertise: 'Biostatistics, Data Collection Procedures, Experimental Design, Non Parametric Statistics, Sampling & Sample Design, Survey Design & Analysis, Technical Writing & Editing'\n  profile_appspec: 'Biological Sciences, Clinical Trials, Communications, Computer Sciences, Disability Statistics, Education & Teaching, Epidemiology, Health & Medical Research, Pharmaceutical Industry, Public Health, Technical Writing & Editing'\n---\n\n---\nparams:\n  profile_name: Neal Fultz\n  profile_email: neal@njnm.co\n  profile_location: Los Angeles, CA\n  profile_website: https://linkedin.com/in/nfultz\n  profile_degree: PhD, UCLA\n  profile_context: Academic / Industry\n  profile_language: English\n  profile_expertise: Default\n  profile_appspec: Default \n---\n\n\n\n  * Location: Orlando\\, Florida\n  * Contact: [julia\\.soulakova@ucf\\.edu](julia\\.soulakova@ucf\\.edu) \n  * Website: [not specified](not specified)\n  * Degree: PhD / ScD, Statistics\n  * Typical Consulting Context: Academic / research, Industry, Government, Non-profit\n  * Language(s): English, Russian\n  * Expertise (top 3): Biostatistics, Data Collection Procedures, Experimental Design, Non Parametric Statistics, Sampling & Sample Design, Survey Design & Analysis, Technical Writing & Editing\n  * Application specializations (top 3): Biological Sciences, Clinical Trials, Communications, Computer Sciences, Disability Statistics, Education & Teaching, Epidemiology, Health & Medical Research, Pharmaceutical Industry, Public Health, Technical Writing & Editing \n  \n\n",
+    "supporting": [
+      "julia.soulakova_at_ucf.edu_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

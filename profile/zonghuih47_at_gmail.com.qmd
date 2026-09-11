@@ -4,7 +4,7 @@ params:
   profile_name: 'Zonghui Hu'
   profile_email: 'zonghuih47@gmail.com'
   profile_location: '(not specified)'
-  profile_website: 'https://NA'
+  profile_website: 'not specified'
   profile_degree: 'PhD / ScD, (field not specified)'
   profile_context: 'NA'
   profile_language: 'NA'

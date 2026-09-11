@@ -1,0 +1,17 @@
+{
+  "hash": "25531ba95f2ac26d2139874cd5c1595d",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: 'Sam Woolford'\nparams:\n  profile_name: 'Sam Woolford'\n  profile_email: 'swoolford@bentley.edu'\n  profile_location: 'Boston/MA'\n  profile_website: 'not specified'\n  profile_degree: 'PhD / ScD, Statistics'\n  profile_context: 'Industry, Government, Legal / expert witness'\n  profile_language: 'English'\n  profile_expertise: 'Market Research, Probability, Time Series & Forecasting'\n  profile_appspec: 'Business Management, Finance and Banking, Human Resources'\n---\n\n---\nparams:\n  profile_name: Neal Fultz\n  profile_email: neal@njnm.co\n  profile_location: Los Angeles, CA\n  profile_website: https://linkedin.com/in/nfultz\n  profile_degree: PhD, UCLA\n  profile_context: Academic / Industry\n  profile_language: English\n  profile_expertise: Default\n  profile_appspec: Default \n---\n\n\n\n  * Location: Boston/MA\n  * Contact: [swoolford@bentley\\.edu](swoolford@bentley\\.edu) \n  * Website: [not specified](not specified)\n  * Degree: PhD / ScD, Statistics\n  * Typical Consulting Context: Industry, Government, Legal / expert witness\n  * Language(s): English\n  * Expertise (top 3): Market Research, Probability, Time Series & Forecasting\n  * Application specializations (top 3): Business Management, Finance and Banking, Human Resources \n  \n\n",
+    "supporting": [
+      "swoolford_at_bentley.edu_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

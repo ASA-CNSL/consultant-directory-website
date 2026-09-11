@@ -1,0 +1,15 @@
+---
+title: 'Sam Woolford'
+params:
+  profile_name: 'Sam Woolford'
+  profile_email: 'swoolford@bentley.edu'
+  profile_location: 'Boston/MA'
+  profile_website: 'not specified'
+  profile_degree: 'PhD / ScD, Statistics'
+  profile_context: 'Industry, Government, Legal / expert witness'
+  profile_language: 'English'
+  profile_expertise: 'Market Research, Probability, Time Series & Forecasting'
+  profile_appspec: 'Business Management, Finance and Banking, Human Resources'
+---
+
+{{< include .profile.qmd >}}

@@ -1,0 +1,15 @@
+{
+  "hash": "79d319dad0a7a82b8cda411b5281dd55",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: 'Jeff Davidson'\nparams:\n  profile_name: 'Jeff Davidson'\n  profile_email: 'Jeffyourstatguy@gmail.com'\n  profile_location: 'Philadelphia, Pa'\n  profile_website: 'https://Www.alphakappastatistics.com'\n  profile_degree: 'PhD / ScD, Statistics'\n  profile_context: 'Industry'\n  profile_language: 'English'\n  profile_expertise: 'Biostatistics, Experimental Design'\n  profile_appspec: 'Health & Medical Research, Pharmaceutical Industry'\n---\n\n---\nparams:\n  profile_name: Neal Fultz\n  profile_email: neal@njnm.co\n  profile_location: Los Angeles, CA\n  profile_website: https://linkedin.com/in/nfultz\n  profile_degree: PhD, UCLA\n  profile_context: Academic / Industry\n  profile_language: English\n  profile_expertise: Default\n  profile_appspec: Default \n---\n\n\n\n  * Location: Philadelphia\\, Pa\n  * Contact: [Jeffyourstatguy@gmail\\.com](Jeffyourstatguy@gmail\\.com) \n  * Website: [https://Www.alphakappastatistics.com](https://Www.alphakappastatistics.com)\n  * Degree: PhD / ScD, Statistics\n  * Typical Consulting Context: Industry\n  * Language(s): English\n  * Expertise (top 3): Biostatistics, Experimental Design\n  * Application specializations (top 3): Health & Medical Research, Pharmaceutical Industry \n  \n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

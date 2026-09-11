@@ -1,0 +1,15 @@
+---
+title: 'Sergei Leonov'
+params:
+  profile_name: 'Sergei Leonov'
+  profile_email: 'Sergei.Leonov@cslbehring.com'
+  profile_location: 'Philadelphia, PA'
+  profile_website: 'not specified'
+  profile_degree: 'PhD / ScD, Mathematical Statistics'
+  profile_context: 'Academic / research, Industry'
+  profile_language: 'English, Russian'
+  profile_expertise: 'Biostatistics, Experimental Design, Non Parametric Statistics'
+  profile_appspec: 'Clinical Trials, Engineering, Pharmaceutical Industry'
+---
+
+{{< include .profile.qmd >}}

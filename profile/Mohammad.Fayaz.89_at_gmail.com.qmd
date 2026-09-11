@@ -1,0 +1,15 @@
+---
+title: 'Dr. Mohammad Fayaz'
+params:
+  profile_name: 'Dr. Mohammad Fayaz'
+  profile_email: 'Mohammad.Fayaz.89@gmail.com'
+  profile_location: '(not specified)'
+  profile_website: 'https://mohammad-fayaz.github.io/'
+  profile_degree: 'PhD / ScD, Biostatistics'
+  profile_context: 'Academic / research'
+  profile_language: 'English, German, Persian'
+  profile_expertise: 'Biostatistics, Machine Learning, Statistical Software Design'
+  profile_appspec: 'Biological Sciences, Epidemiology, Health & Medical Research'
+---
+
+{{< include .profile.qmd >}}

@@ -1,0 +1,15 @@
+---
+title: 'Julia Soulakova'
+params:
+  profile_name: 'Julia Soulakova'
+  profile_email: 'julia.soulakova@ucf.edu'
+  profile_location: 'Orlando, Florida'
+  profile_website: 'not specified'
+  profile_degree: 'PhD / ScD, Statistics'
+  profile_context: 'Academic / research, Industry, Government, Non-profit'
+  profile_language: 'English, Russian'
+  profile_expertise: 'Biostatistics, Data Collection Procedures, Experimental Design, Non Parametric Statistics, Sampling & Sample Design, Survey Design & Analysis, Technical Writing & Editing'
+  profile_appspec: 'Biological Sciences, Clinical Trials, Communications, Computer Sciences, Disability Statistics, Education & Teaching, Epidemiology, Health & Medical Research, Pharmaceutical Industry, Public Health, Technical Writing & Editing'
+---
+
+{{< include .profile.qmd >}}

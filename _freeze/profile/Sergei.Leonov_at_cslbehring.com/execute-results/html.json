@@ -1,0 +1,17 @@
+{
+  "hash": "b498cb84e6f0df52436c4938cc6dbd09",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: 'Sergei Leonov'\nparams:\n  profile_name: 'Sergei Leonov'\n  profile_email: 'Sergei.Leonov@cslbehring.com'\n  profile_location: 'Philadelphia, PA'\n  profile_website: 'not specified'\n  profile_degree: 'PhD / ScD, Mathematical Statistics'\n  profile_context: 'Academic / research, Industry'\n  profile_language: 'English, Russian'\n  profile_expertise: 'Biostatistics, Experimental Design, Non Parametric Statistics'\n  profile_appspec: 'Clinical Trials, Engineering, Pharmaceutical Industry'\n---\n\n---\nparams:\n  profile_name: Neal Fultz\n  profile_email: neal@njnm.co\n  profile_location: Los Angeles, CA\n  profile_website: https://linkedin.com/in/nfultz\n  profile_degree: PhD, UCLA\n  profile_context: Academic / Industry\n  profile_language: English\n  profile_expertise: Default\n  profile_appspec: Default \n---\n\n\n\n  * Location: Philadelphia\\, PA\n  * Contact: [Sergei\\.Leonov@cslbehring\\.com](Sergei\\.Leonov@cslbehring\\.com) \n  * Website: [not specified](not specified)\n  * Degree: PhD / ScD, Mathematical Statistics\n  * Typical Consulting Context: Academic / research, Industry\n  * Language(s): English, Russian\n  * Expertise (top 3): Biostatistics, Experimental Design, Non Parametric Statistics\n  * Application specializations (top 3): Clinical Trials, Engineering, Pharmaceutical Industry \n  \n\n",
+    "supporting": [
+      "Sergei.Leonov_at_cslbehring.com_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

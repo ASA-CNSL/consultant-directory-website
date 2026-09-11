@@ -14,8 +14,12 @@ for (i in 1:nrow(form_responses)) {
   loc   <- row[["In-person availability (if applicable, list city/state/region)"]]
   loc <- ifelse(is.na(loc), "(not specified)", loc)
   web <- row[["Website URL (optional)"]]
-  web <- gsub("https://", "", web)
-  web <- paste0('https://', web) 
+  if(!is.na(web)) {
+    web <- gsub("https://", "", web)
+    web <- paste0('https://', web) 
+  } else 
+    web <- "not specified"
+  
   deg <- row[["Highest Degree"]]
   field <- ifelse(is.na(row[["Field of Degree"]]), "(field not specified)", row[["Field of Degree"]])
   context <- row[["Typical consulting context"]]

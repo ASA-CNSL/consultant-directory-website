@@ -1,0 +1,15 @@
+---
+title: 'Jeff Davidson'
+params:
+  profile_name: 'Jeff Davidson'
+  profile_email: 'Jeffyourstatguy@gmail.com'
+  profile_location: 'Philadelphia, Pa'
+  profile_website: 'https://Www.alphakappastatistics.com'
+  profile_degree: 'PhD / ScD, Statistics'
+  profile_context: 'Industry'
+  profile_language: 'English'
+  profile_expertise: 'Biostatistics, Experimental Design'
+  profile_appspec: 'Health & Medical Research, Pharmaceutical Industry'
+---
+
+{{< include .profile.qmd >}}

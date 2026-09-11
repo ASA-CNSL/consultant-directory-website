@@ -1,0 +1,15 @@
+---
+title: 'Meng-Chen Hsieh'
+params:
+  profile_name: 'Meng-Chen Hsieh'
+  profile_email: 'mengchen.hsieh@gmail.com'
+  profile_location: 'New York/New York/Northeast'
+  profile_website: 'not specified'
+  profile_degree: 'PhD / ScD, Statistics'
+  profile_context: 'Academic / research, Industry, Non-profit'
+  profile_language: 'English, Mandarin'
+  profile_expertise: 'High-Dimensional Data Analysis, Machine Learning, Model Selection, Probability, Risk Assessment & Analysis, Time Series & Forecasting'
+  profile_appspec: 'Accounting & Actuarial Sciences, Business Management, Economics, Finance and Banking, Marketing & Advertising, Risk Assessment'
+---
+
+{{< include .profile.qmd >}}

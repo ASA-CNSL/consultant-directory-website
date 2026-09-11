@@ -1,0 +1,15 @@
+{
+  "hash": "a57bd4dd077e0ebe95486e030b68230e",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: 'Alun Bedding'\nparams:\n  profile_name: 'Alun Bedding'\n  profile_email: 'alun@alunbeddingcoaching.com'\n  profile_location: '(not specified)'\n  profile_website: 'https://www.alunbeddingcoaching.com/'\n  profile_degree: 'PhD / ScD, Applied Statistics'\n  profile_context: 'Industry'\n  profile_language: 'English'\n  profile_expertise: 'Bayesian Methods, Biostatistics, Executive and team coaching, leadership consulting'\n  profile_appspec: 'Business Management, Clinical Trials, Communications'\n---\n\n---\nparams:\n  profile_name: Neal Fultz\n  profile_email: neal@njnm.co\n  profile_location: Los Angeles, CA\n  profile_website: https://linkedin.com/in/nfultz\n  profile_degree: PhD, UCLA\n  profile_context: Academic / Industry\n  profile_language: English\n  profile_expertise: Default\n  profile_appspec: Default \n---\n\n\n\n  * Location: \\(not specified\\)\n  * Contact: [alun@alunbeddingcoaching\\.com](alun@alunbeddingcoaching\\.com) \n  * Website: [https://www.alunbeddingcoaching.com/](https://www.alunbeddingcoaching.com/)\n  * Degree: PhD / ScD, Applied Statistics\n  * Typical Consulting Context: Industry\n  * Language(s): English\n  * Expertise (top 3): Bayesian Methods, Biostatistics, Executive and team coaching, leadership consulting\n  * Application specializations (top 3): Business Management, Clinical Trials, Communications \n  \n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
