@@ -3,7 +3,7 @@ title: 'Dr Arun Peter Chind'
 params:
   profile_name: 'Dr Arun Peter Chind'
   profile_email: 'Hseappointeddoctor@gmail.com'
-  profile_location: '(not specified)'
+  profile_location: 'United Kingdom, Europe, USA'
   profile_website: 'https://uk.linkedin.com/in/dr-arun-chind-8549a2139'
   profile_degree: 'MS, MPH, Medical statistics, public health practice'
   profile_context: 'Academic / research, Industry, Government'

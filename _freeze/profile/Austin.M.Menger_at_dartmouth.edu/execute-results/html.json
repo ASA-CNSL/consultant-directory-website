@@ -1,0 +1,15 @@
+{
+  "hash": "552a4ae1a99d14eccc1f4d32be9e7ade",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: 'Austin Menger'\nparams:\n  profile_name: 'Austin Menger'\n  profile_email: 'Austin.M.Menger@dartmouth.edu'\n  profile_location: 'New Hampshire'\n  profile_website: 'https://austinmenger.github.io/'\n  profile_degree: 'PhD / ScD, Statistics'\n  profile_context: 'Academic / research, Industry'\n  profile_language: 'English'\n  profile_expertise: 'Bayesian Methods, Biostatistics, Model Selection'\n  profile_appspec: 'Education & Teaching, Health & Medical Research, Technical Writing & Editing'\n---\n\n---\nparams:\n  profile_name: Neal Fultz\n  profile_email: neal@njnm.co\n  profile_location: Los Angeles, CA\n  profile_website: https://linkedin.com/in/nfultz\n  profile_degree: PhD, UCLA\n  profile_context: Academic / Industry\n  profile_language: English\n  profile_expertise: Default\n  profile_appspec: Default \n---\n\n\n\n  * Location: New Hampshire\n  * Contact: [Austin\\.M\\.Menger@dartmouth\\.edu](Austin\\.M\\.Menger@dartmouth\\.edu) \n  * Website: [https://austinmenger.github.io/](https://austinmenger.github.io/)\n  * Degree: PhD / ScD, Statistics\n  * Typical Consulting Context: Academic / research, Industry\n  * Language(s): English\n  * Expertise (top 3): Bayesian Methods, Biostatistics, Model Selection\n  * Application specializations (top 3): Education & Teaching, Health & Medical Research, Technical Writing & Editing \n  \n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

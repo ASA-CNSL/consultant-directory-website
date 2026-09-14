@@ -1,0 +1,15 @@
+---
+title: 'Austin Menger'
+params:
+  profile_name: 'Austin Menger'
+  profile_email: 'Austin.M.Menger@dartmouth.edu'
+  profile_location: 'New Hampshire'
+  profile_website: 'https://austinmenger.github.io/'
+  profile_degree: 'PhD / ScD, Statistics'
+  profile_context: 'Academic / research, Industry'
+  profile_language: 'English'
+  profile_expertise: 'Bayesian Methods, Biostatistics, Model Selection'
+  profile_appspec: 'Education & Teaching, Health & Medical Research, Technical Writing & Editing'
+---
+
+{{< include .profile.qmd >}}
