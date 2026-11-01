@@ -1,0 +1,15 @@
+---
+title: 'Haley Hedlin'
+params:
+  profile_name: 'Haley Hedlin'
+  profile_email: 'haleyhedlin@gmail.com'
+  profile_location: '(not specified)'
+  profile_website: 'not specified'
+  profile_degree: 'PhD / ScD, Biostatistics'
+  profile_context: 'Academic / research, Industry'
+  profile_language: 'English'
+  profile_expertise: 'Biostatistics, Statistical Training, Data and safety monitoring'
+  profile_appspec: 'Clinical Trials, Health & Medical Research, Public Health'
+---
+
+{{< include .profile.qmd >}}

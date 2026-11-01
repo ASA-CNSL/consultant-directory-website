@@ -1,0 +1,15 @@
+---
+title: 'Michael Larsen'
+params:
+  profile_name: 'Michael Larsen'
+  profile_email: 'mlarsen@smcvt.edu'
+  profile_location: 'Vermont, New England'
+  profile_website: 'https://www.larsenstatistics.com'
+  profile_degree: 'PhD / ScD, Statistics'
+  profile_context: 'Academic / research, Industry, Government, Non-profit'
+  profile_language: 'English'
+  profile_expertise: 'Sampling & Sample Design, Survey Design & Analysis, Record Linkage'
+  profile_appspec: 'Education & Teaching, Public Opinion, Government Surveys'
+---
+
+{{< include .profile.qmd >}}

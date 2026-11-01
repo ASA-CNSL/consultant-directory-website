@@ -1,0 +1,15 @@
+{
+  "hash": "4df9fe5ccbc548e021f335fcaca69097",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: 'Haley Hedlin'\nparams:\n  profile_name: 'Haley Hedlin'\n  profile_email: 'haleyhedlin@gmail.com'\n  profile_location: '(not specified)'\n  profile_website: 'not specified'\n  profile_degree: 'PhD / ScD, Biostatistics'\n  profile_context: 'Academic / research, Industry'\n  profile_language: 'English'\n  profile_expertise: 'Biostatistics, Statistical Training, Data and safety monitoring'\n  profile_appspec: 'Clinical Trials, Health & Medical Research, Public Health'\n---\n\n---\nparams:\n  profile_name: Neal Fultz\n  profile_email: neal@njnm.co\n  profile_location: Los Angeles, CA\n  profile_website: https://linkedin.com/in/nfultz\n  profile_degree: PhD, UCLA\n  profile_context: Academic / Industry\n  profile_language: English\n  profile_expertise: Default\n  profile_appspec: Default \n---\n\n\n\n  * Location: \\(not specified\\)\n  * Contact: [haleyhedlin@gmail\\.com](haleyhedlin@gmail\\.com) \n  * Website: [not specified](not specified)\n  * Degree: PhD / ScD, Biostatistics\n  * Typical Consulting Context: Academic / research, Industry\n  * Language(s): English\n  * Expertise (top 3): Biostatistics, Statistical Training, Data and safety monitoring\n  * Application specializations (top 3): Clinical Trials, Health & Medical Research, Public Health \n  \n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
