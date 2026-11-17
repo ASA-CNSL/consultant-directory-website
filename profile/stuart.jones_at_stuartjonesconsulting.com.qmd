@@ -1,0 +1,15 @@
+---
+title: 'Stuart Jones, PStat'
+params:
+  profile_name: 'Stuart Jones, PStat'
+  profile_email: 'stuart.jones@stuartjonesconsulting.com'
+  profile_location: '(not specified)'
+  profile_website: 'https://www.stuartjonesconsulting.com'
+  profile_degree: 'MS / MA, Statistics'
+  profile_context: 'Academic / research, Industry, Government, Legal / expert witness, Non-profit'
+  profile_language: 'English'
+  profile_expertise: 'Expert Witness, Machine Learning, Risk Assessment & Analysis'
+  profile_appspec: 'Education & Teaching, Quality & Process Improvement, Risk Assessment'
+---
+
+{{< include .profile.qmd >}}

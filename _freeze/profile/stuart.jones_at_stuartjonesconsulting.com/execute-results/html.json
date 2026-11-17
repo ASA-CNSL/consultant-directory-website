@@ -1,0 +1,15 @@
+{
+  "hash": "aac1f145883e89d5112de8e5b68afe44",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: 'Stuart Jones, PStat'\nparams:\n  profile_name: 'Stuart Jones, PStat'\n  profile_email: 'stuart.jones@stuartjonesconsulting.com'\n  profile_location: '(not specified)'\n  profile_website: 'https://www.stuartjonesconsulting.com'\n  profile_degree: 'MS / MA, Statistics'\n  profile_context: 'Academic / research, Industry, Government, Legal / expert witness, Non-profit'\n  profile_language: 'English'\n  profile_expertise: 'Expert Witness, Machine Learning, Risk Assessment & Analysis'\n  profile_appspec: 'Education & Teaching, Quality & Process Improvement, Risk Assessment'\n---\n\n---\nparams:\n  profile_name: Neal Fultz\n  profile_email: neal@njnm.co\n  profile_location: Los Angeles, CA\n  profile_website: https://linkedin.com/in/nfultz\n  profile_degree: PhD, UCLA\n  profile_context: Academic / Industry\n  profile_language: English\n  profile_expertise: Default\n  profile_appspec: Default \n---\n\n\n\n  * Location: \\(not specified\\)\n  * Contact: [stuart\\.jones@stuartjonesconsulting\\.com](stuart\\.jones@stuartjonesconsulting\\.com) \n  * Website: [https://www.stuartjonesconsulting.com](https://www.stuartjonesconsulting.com)\n  * Degree: MS / MA, Statistics\n  * Typical Consulting Context: Academic / research, Industry, Government, Legal / expert witness, Non-profit\n  * Language(s): English\n  * Expertise (top 3): Expert Witness, Machine Learning, Risk Assessment & Analysis\n  * Application specializations (top 3): Education & Teaching, Quality & Process Improvement, Risk Assessment \n  \n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
